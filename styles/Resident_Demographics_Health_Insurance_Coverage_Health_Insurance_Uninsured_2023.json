@@ -1,0 +1,617 @@
+{
+ "title": "Health Insurance: Uninsured 2023",
+ "group": [
+  "Resident Demographics",
+  "Health Insurance Coverage"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/Health_Insurance_Coverage_2023/FeatureServer/25",
+ "drawingInfo": {
+  "renderer": {
+   "type": "classBreaks",
+   "authoringInfo": {
+    "type": "classedColor",
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        247,
+        252,
+        252,
+        255
+       ],
+       "toColor": [
+        225,
+        237,
+        245,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        225,
+        237,
+        245,
+        255
+       ],
+       "toColor": [
+        190,
+        211,
+        230,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        190,
+        211,
+        230,
+        255
+       ],
+       "toColor": [
+        156,
+        186,
+        217,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        156,
+        186,
+        217,
+        255
+       ],
+       "toColor": [
+        141,
+        151,
+        199,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        141,
+        151,
+        199,
+        255
+       ],
+       "toColor": [
+        137,
+        106,
+        176,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        137,
+        106,
+        176,
+        255
+       ],
+       "toColor": [
+        136,
+        65,
+        158,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        136,
+        65,
+        158,
+        255
+       ],
+       "toColor": [
+        130,
+        16,
+        124,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        130,
+        16,
+        124,
+        255
+       ],
+       "toColor": [
+        77,
+        0,
+        74,
+        255
+       ]
+      }
+     ]
+    },
+    "classificationMethod": "esriClassifyQuantile"
+   },
+   "field": "F__Uninsured",
+   "classificationMethod": "esriClassifyQuantile",
+   "defaultSymbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     130,
+     130,
+     130,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      110,
+      110,
+      110,
+      255
+     ],
+     "width": 0.25
+    }
+   },
+   "defaultLabel": "No Data",
+   "minValue": 0,
+   "classBreakInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       247,
+       252,
+       253,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 3.3,
+     "label": "0.0 - 3.3"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       191,
+       211,
+       230,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 6,
+     "label": "3.4 - 6.0"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       140,
+       150,
+       198,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 9.3,
+     "label": "6.1 - 9.3"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       136,
+       65,
+       157,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 13.9,
+     "label": "9.4 - 13.9"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       77,
+       0,
+       75,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 44.1,
+     "label": "14.0 - 44.1"
+    }
+   ],
+   "legendOptions": {
+    "order": "descendingValues"
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 1,
+       "minimumFractionDigits": 1,
+       "useGrouping": "never"
+      },
+      "fieldName": "F__Uninsured",
+      "format": {
+       "digitSeparator": false,
+       "places": 1
+      },
+      "isEditable": true,
+      "label": "% Uninsured",
+      "visible": true
+     },
+     {
+      "fieldName": "TractID",
+      "isEditable": true,
+      "label": "TractID",
+      "visible": true
+     },
+     {
+      "fieldName": "Geographic_Area_Name",
+      "isEditable": true,
+      "label": "Geographic Area Name",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "CT20",
+    "isEditable": true,
+    "label": "CT20",
+    "visible": false
+   },
+   {
+    "fieldName": "LABEL",
+    "isEditable": true,
+    "label": "LABEL",
+    "visible": false
+   },
+   {
+    "fieldName": "OBJECTID_1",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "GEO_ID",
+    "isEditable": true,
+    "label": "GEO_ID",
+    "visible": false
+   },
+   {
+    "fieldName": "TractID",
+    "isEditable": true,
+    "label": "TractID",
+    "visible": true
+   },
+   {
+    "fieldName": "ShortenedTractID",
+    "isEditable": true,
+    "label": "ShortenedTractID",
+    "visible": false
+   },
+   {
+    "fieldName": "Geographic_Area_Name",
+    "isEditable": true,
+    "label": "Geographic Area Name",
+    "visible": true
+   },
+   {
+    "fieldName": "Total_Population",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Total Population",
+    "visible": false
+   },
+   {
+    "fieldName": "F__Uninsured",
+    "format": {
+     "digitSeparator": false,
+     "places": 1
+    },
+    "isEditable": true,
+    "label": "% Uninsured",
+    "visible": true
+   },
+   {
+    "fieldName": "ACS_Data_Year",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ACS Data Year",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "GEOID_20",
+    "isEditable": true,
+    "label": "GEOID_20",
+    "visible": false
+   }
+  ],
+  "title": "{Geographic_Area_Name}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CT20",
+   "type": "esriFieldTypeString",
+   "alias": "CT20",
+   "sqlType": "sqlTypeOther",
+   "length": 6,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "LABEL",
+   "sqlType": "sqlTypeOther",
+   "length": 7,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID_1",
+   "type": "esriFieldTypeInteger",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEO_ID",
+   "type": "esriFieldTypeString",
+   "alias": "GEO_ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TractID",
+   "type": "esriFieldTypeString",
+   "alias": "TractID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShortenedTractID",
+   "type": "esriFieldTypeString",
+   "alias": "ShortenedTractID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Geographic_Area_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Geographic Area Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Total_Population",
+   "type": "esriFieldTypeDouble",
+   "alias": "Total Population",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "F__Uninsured",
+   "type": "esriFieldTypeDouble",
+   "alias": "% Uninsured",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ACS_Data_Year",
+   "type": "esriFieldTypeDouble",
+   "alias": "ACS Data Year",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOID_20",
+   "type": "esriFieldTypeString",
+   "alias": "GEOID_20",
+   "sqlType": "sqlTypeOther",
+   "length": 11,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Data_Value",
+   "type": "esriFieldTypeDouble",
+   "alias": "Data_Value",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

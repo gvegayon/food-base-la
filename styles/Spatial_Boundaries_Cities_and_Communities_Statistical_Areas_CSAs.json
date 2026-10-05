@@ -1,0 +1,222 @@
+{
+ "title": "Cities and Communities (Statistical Areas) (CSAs)",
+ "group": [
+  "Spatial Boundaries"
+ ],
+ "url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/Political_Boundaries/MapServer/23",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "CIMSymbolReference",
+    "symbol": {
+     "type": "CIMPolygonSymbol",
+     "symbolLayers": [
+      {
+       "type": "CIMSolidStroke",
+       "enable": true,
+       "colorLocked": true,
+       "capStyle": "Butt",
+       "joinStyle": "Round",
+       "lineStyle3D": "Strip",
+       "miterLimit": 10,
+       "width": 1.5,
+       "height3D": 1,
+       "anchor3D": "Center",
+       "color": [
+        115,
+        178,
+        255,
+        255
+       ]
+      },
+      {
+       "type": "CIMSolidFill",
+       "enable": true,
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ]
+      }
+     ],
+     "angleAlignment": "Map"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "CITY_TYPE",
+    "isEditable": true,
+    "label": "CITY_TYPE",
+    "visible": false
+   },
+   {
+    "fieldName": "LCITY",
+    "isEditable": true,
+    "label": "LCITY",
+    "visible": false
+   },
+   {
+    "fieldName": "COMMUNITY",
+    "isEditable": true,
+    "label": "COMMUNITY",
+    "visible": false
+   },
+   {
+    "fieldName": "LABEL",
+    "isEditable": true,
+    "label": "LABEL",
+    "visible": false
+   },
+   {
+    "fieldName": "SOURCE",
+    "isEditable": true,
+    "label": "SOURCE",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape.STArea()",
+    "format": {
+     "digitSeparator": true,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "Shape.STArea()",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape.STLength()",
+    "format": {
+     "digitSeparator": true,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "Shape.STLength()",
+    "visible": false
+   },
+   {
+    "fieldName": "Feat_Type",
+    "isEditable": true,
+    "label": "FEAT_TYPE",
+    "visible": false
+   },
+   {
+    "fieldName": "CSA_ID",
+    "isEditable": true,
+    "label": "CSA_ID",
+    "visible": false
+   },
+   {
+    "fieldName": "NOTES",
+    "isEditable": true,
+    "label": "NOTES",
+    "visible": false
+   }
+  ],
+  "title": "{LABEL}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "CITY_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "CITY_TYPE",
+   "length": 25,
+   "domain": null
+  },
+  {
+   "name": "LCITY",
+   "type": "esriFieldTypeString",
+   "alias": "LCITY",
+   "length": 25,
+   "domain": null
+  },
+  {
+   "name": "COMMUNITY",
+   "type": "esriFieldTypeString",
+   "alias": "COMMUNITY",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "LABEL",
+   "length": 75,
+   "domain": null
+  },
+  {
+   "name": "SOURCE",
+   "type": "esriFieldTypeString",
+   "alias": "SOURCE",
+   "length": 16,
+   "domain": null
+  },
+  {
+   "name": "Shape.STArea()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STArea()",
+   "domain": null
+  },
+  {
+   "name": "Shape.STLength()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STLength()",
+   "domain": null
+  },
+  {
+   "name": "Feat_Type",
+   "type": "esriFieldTypeString",
+   "alias": "FEAT_TYPE",
+   "length": 25,
+   "domain": null
+  },
+  {
+   "name": "CSA_ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "CSA_ID",
+   "domain": null
+  },
+  {
+   "name": "NOTES",
+   "type": "esriFieldTypeString",
+   "alias": "NOTES",
+   "length": 1000,
+   "domain": null
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "title": "Extreme Heat Days Summer 2023",
+ "group": [
+  "Urban Agriculture"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/DaymetDaysOver90DegreesSummer2023_Serving/FeatureServer/10",
+ "drawingInfo": {
+  "renderer": {
+   "type": "classBreaks",
+   "authoringInfo": {
+    "type": "classedColor",
+    "colorRamp": {
+     "type": "algorithmic",
+     "algorithm": "esriCIELabAlgorithm",
+     "fromColor": [
+      252,
+      233,
+      232,
+      255
+     ],
+     "toColor": [
+      161,
+      14,
+      14,
+      255
+     ]
+    },
+    "classificationMethod": "esriClassifyQuantile"
+   },
+   "field": "days_over90",
+   "classificationMethod": "esriClassifyQuantile",
+   "minValue": 0,
+   "classBreakInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       224,
+       224,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 3.717538377400681,
+     "label": "0.00 - 3.72"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       233,
+       166,
+       155,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 10.6627276623415,
+     "label": "3.73 - 10.66"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       207,
+       112,
+       96,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 17.62830505282751,
+     "label": "10.67 - 17.63"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       176,
+       64,
+       47,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 20.336821733135906,
+     "label": "17.64 - 20.34"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       143,
+       10,
+       10,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 31.756430676519827,
+     "label": "20.35 - 31.76"
+    }
+   ],
+   "legendOptions": {
+    "order": "ascendingValues"
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "minimumFractionDigits": 2,
+       "useGrouping": "never"
+      },
+      "fieldName": "days_over90",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "Days Above 90 Degrees in Summer 2023",
+      "visible": true
+     },
+     {
+      "fieldName": "COMMNAME",
+      "isEditable": true,
+      "label": "Community Name",
+      "visible": true
+     },
+     {
+      "fieldName": "GEOID_CT10",
+      "isEditable": true,
+      "label": "Census Tract Geographic ID",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.COMMNAME",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "COMMNAME",
+    "isEditable": true,
+    "label": "Community Name",
+    "visible": true
+   },
+   {
+    "fieldName": "GEOID_CT10",
+    "isEditable": true,
+    "label": "Census Tract Geographic ID",
+    "visible": true
+   },
+   {
+    "fieldName": "days_over90",
+    "format": {
+     "digitSeparator": false,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "Days Above 90 Degrees in Summer 2023",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "rounded_daysover90",
+    "format": {
+     "digitSeparator": false,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "Rounded Days Above 90 Degrees in Summer 2023",
+    "visible": false
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{expression/displayExp}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "COMMNAME",
+   "type": "esriFieldTypeString",
+   "alias": "COMMNAME",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOID_CT10",
+   "type": "esriFieldTypeString",
+   "alias": "GEOID_CT10",
+   "sqlType": "sqlTypeOther",
+   "length": 11,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "days_over90",
+   "type": "esriFieldTypeDouble",
+   "alias": "days_over90",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "rounded_daysover90",
+   "type": "esriFieldTypeDouble",
+   "alias": "rounded_daysover90",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

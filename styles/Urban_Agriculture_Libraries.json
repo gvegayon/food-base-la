@@ -1,0 +1,196 @@
+{
+ "title": "Libraries",
+ "group": [
+  "Urban Agriculture"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LA_County_Libraries_Cleaned/FeatureServer/69",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriPMS",
+    "url": "aba695fbf68d7b4739705f5db8f9d3cf",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACQElEQVQ4jb2Uz2vTYBzGn4yWdqUaZtPhJohSZ9OhHkoPA63gQR1iD5nUrf4BO3v15K0eRHbf7q6zdDjqwHMDHsSLoDYVdOBGp66onRoXhEWetOmSdmYbiC+EvHmT74fvj+eJD/94+f4b8GG5LPX93LpoCoIiAFFAkACzAQhVE9jITd7I7xtYKBQnoBvTcVmWT544Hg0GA/5AIOA3DON3s7k59u79ykZhoTQBczs/NZVd9AQWHpWmpUjk9tkzo8ODg1HR+Y5QnvEaTch6RX12d36hJDuz9XVnRtiF82OnGOzVK1E8HMpcHz9XfvIU88WimstmVReQPWOZzOzLiu5fr67hkNSPkfRwB/Kj8Qtv1bq1H0ocwZA8gCuXLyUeLy3PAEi5gBwAe6YtfRYrc69c2Uw+SFv35XsvLKi9rt1JIanE/PH4aYnVsZ8dIKfJAbx8vtpT3vc2xAlrPW9Zd8ZptZoCYAdIaXCaXn3z6qcAIeEqmTrbaxD7Wb6drdmgzgAcGGpYcRS9O8MqRcsKDgpsNjd1xruAtBMdEJYiYlKJ4ag8YJ1X5l53AimTkfQxhKUgPmpfO+f19U/fIMANpNppp/Grsp5UYiH7nHBONyz1W/vdstNqNdUMBRZ7rWdu52knOsB5TNjfSn1T1eroM2dvZTLdPQQoTHqTdqIDvKZuwz6srt3P3WzZrjfDdun0Ju1EB1C01Bnftf82OnvGMpmZE7Yr0IK2jJ6inegAW7T2/5ADYM/sMvcEOltAO3l9073+ALtw/c+Sf9jgAAAAAElFTkSuQmCC",
+    "contentType": "image/png",
+    "width": 15,
+    "height": 15,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "name__",
+      "isEditable": true,
+      "label": "Name",
+      "visible": true
+     },
+     {
+      "fieldName": "REV_Match_addr",
+      "isEditable": true,
+      "label": "Address",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "name__",
+    "isEditable": true,
+    "label": "Name",
+    "visible": true
+   },
+   {
+    "fieldName": "REV_Match_addr",
+    "isEditable": true,
+    "label": "Address",
+    "visible": true
+   },
+   {
+    "fieldName": "ref_isil__",
+    "isEditable": true,
+    "label": "ISIL Identifier",
+    "visible": false
+   },
+   {
+    "fieldName": "opening_hours__",
+    "isEditable": true,
+    "label": "Hours Open",
+    "visible": false
+   },
+   {
+    "fieldName": "internet_access__",
+    "isEditable": true,
+    "label": "Internet Access",
+    "visible": false
+   },
+   {
+    "fieldName": "REV_X",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Longitude",
+    "visible": false
+   },
+   {
+    "fieldName": "REV_Y",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Latitude",
+    "visible": false
+   }
+  ],
+  "title": "{name__}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "name__",
+   "type": "esriFieldTypeString",
+   "alias": "Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "REV_Match_addr",
+   "type": "esriFieldTypeString",
+   "alias": "Address",
+   "sqlType": "sqlTypeOther",
+   "length": 500,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ref_isil__",
+   "type": "esriFieldTypeString",
+   "alias": "ISIL Identifier",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "opening_hours__",
+   "type": "esriFieldTypeString",
+   "alias": "Hours Open",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "internet_access__",
+   "type": "esriFieldTypeString",
+   "alias": "Internet Access",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "REV_X",
+   "type": "esriFieldTypeDouble",
+   "alias": "X",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "REV_Y",
+   "type": "esriFieldTypeDouble",
+   "alias": "Y",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

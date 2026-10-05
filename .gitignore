@@ -1,7 +1,7 @@
-data/
-styles/
-parquet/
+raw/
 export.log
 *.tmp
 __pycache__/
 .DS_Store
+.Rhistory
+Rplots.pdf

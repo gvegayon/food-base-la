@@ -1,0 +1,265 @@
+{
+ "title": "WIC Food Retailers 2025 (January)",
+ "group": [
+  "Food Assistance and Benefits",
+  "WIC Food Retailers"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/WIC_vendor_LACounty_092624/FeatureServer/0",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSMS",
+    "color": [
+     255,
+     0,
+     4,
+     128
+    ],
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "size": 6.75,
+    "style": "esriSMSTriangle",
+    "outline": {
+     "type": "esriSLS",
+     "color": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "width": 0.75,
+     "style": "esriSLSSolid"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "VENDOR",
+      "isEditable": true,
+      "label": "VENDOR",
+      "visible": true
+     },
+     {
+      "fieldName": "ADDRESS",
+      "isEditable": true,
+      "label": "ADDRESS",
+      "visible": true
+     },
+     {
+      "fieldName": "SECOND_ADDRESS",
+      "isEditable": true,
+      "label": "SECOND ADDRESS",
+      "visible": true
+     },
+     {
+      "fieldName": "CITY",
+      "isEditable": true,
+      "label": "CITY",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "ZIP",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "ZIP",
+      "visible": true
+     },
+     {
+      "fieldName": "COUNTY",
+      "isEditable": true,
+      "label": "COUNTY",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "VENDOR",
+    "isEditable": true,
+    "label": "VENDOR",
+    "visible": true
+   },
+   {
+    "fieldName": "ADDRESS",
+    "isEditable": true,
+    "label": "ADDRESS",
+    "visible": true
+   },
+   {
+    "fieldName": "SECOND_ADDRESS",
+    "isEditable": true,
+    "label": "SECOND ADDRESS",
+    "visible": true
+   },
+   {
+    "fieldName": "CITY",
+    "isEditable": true,
+    "label": "CITY",
+    "visible": true
+   },
+   {
+    "fieldName": "ZIP",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "ZIP",
+    "visible": true
+   },
+   {
+    "fieldName": "COUNTY",
+    "isEditable": true,
+    "label": "COUNTY",
+    "visible": true
+   },
+   {
+    "fieldName": "LATITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "LATITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "LONGITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "LONGITUDE",
+    "visible": false
+   }
+  ],
+  "title": "{VENDOR}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "VENDOR",
+   "type": "esriFieldTypeString",
+   "alias": "VENDOR",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SECOND_ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "SECOND ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CITY",
+   "type": "esriFieldTypeString",
+   "alias": "CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ZIP",
+   "type": "esriFieldTypeDouble",
+   "alias": "ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "COUNTY",
+   "type": "esriFieldTypeString",
+   "alias": "COUNTY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LATITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LONGITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

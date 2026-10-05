@@ -1,0 +1,324 @@
+{
+ "title": "Certified Farmers' Markets 2024 (May)",
+ "group": [
+  "Retail Food Outlets",
+  "Certified Farmers' Markets"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/Certified_Farmers_Markets_May_2024/FeatureServer/8",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriPMS",
+    "url": "21378faf0d76c23fa2d5b498c8ab1c9a",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB6klEQVQ4jaWTz2oTURTGf5OM2CkqTAy0M1BBS2k3hZSbVbvwBWw2lbGYB8hjaB5jso/Ui9002UkL3biQXLvuIv8MJC0MGUFlUmNmXNgZE2vowm93uHy/75x7ODr/KX3eQ1VKkSYtoii0NS3VnzBRRcdRtwKqUorl7JK7sb4mTNPEMBYIghG+73N8cqouvMvSNGgG8Obtu92nO9tHtm0BEJxXGD8UGFmBYVjYtiWarXbjQB6W9p29ygygKqWYNn95XyC1aBGcVwDIFBoArD55DOBWpVRFx1EJYDm75E4npxYtHuy4AAyP8ow9xZ2sSCDdbs8F8nqcvrG+JgCuenWuPtcJgz7fz8oApAybrx9K3N92E0gutymqUgodIE1amKYJwE/vz0d/O3sNwN2VXQB+9OoJIGOapEn/BkRRaBvGQmIMgz4pwwbUX/Wsoii0dQBNS/WDYEQMGXsqMU/XcTpAEIxItjBhonzfxzCsGynz1B8MCLWopgMUHUcdn5wq27bEbcZYnjecXeOFd1lqttqNRyvPuDfHpF+P0Gy1aXU65WSEuIsDeVhCbLmrW6/mJjdbbT42PhVevnhemwEA7Dt7laqUqtvtubncpshcrzYIRvQHAzxvqFqdTjk23wDEnQD56WsECLWo9q9r/AXaK9PgKZZczgAAAABJRU5ErkJggg==",
+    "contentType": "image/png",
+    "width": 12,
+    "height": 12,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "USER_Market_Location",
+      "isEditable": true,
+      "label": "Market Location",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_Market_Name",
+      "isEditable": true,
+      "label": "Market Name",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_Manager",
+      "isEditable": true,
+      "label": "Manager",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_Days",
+      "isEditable": true,
+      "label": "Days",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_Hours",
+      "isEditable": true,
+      "label": "Hours",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_Months",
+      "isEditable": true,
+      "label": "Months",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_Market_Phone",
+      "isEditable": true,
+      "label": "Market Phone",
+      "visible": true
+     },
+     {
+      "fieldName": "AcceptsEBT",
+      "isEditable": true,
+      "label": "Accepts EBT",
+      "visible": true
+     },
+     {
+      "fieldName": "MarketMatch",
+      "isEditable": true,
+      "label": "Has Market Match Program",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_County_Name",
+      "isEditable": true,
+      "label": "County",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "USER_County_Name",
+    "isEditable": true,
+    "label": "County",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Market_Name",
+    "isEditable": true,
+    "label": "Market Name",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Market_Location",
+    "isEditable": true,
+    "label": "Market Location",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Manager",
+    "isEditable": true,
+    "label": "Manager",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Days",
+    "isEditable": true,
+    "label": "Days",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Hours",
+    "isEditable": true,
+    "label": "Hours",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Months",
+    "isEditable": true,
+    "label": "Months",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Market_Phone",
+    "isEditable": true,
+    "label": "Market Phone",
+    "visible": true
+   },
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": true,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "AcceptsEBT",
+    "isEditable": true,
+    "label": "Accepts EBT",
+    "visible": true
+   },
+   {
+    "fieldName": "MarketMatch",
+    "isEditable": true,
+    "label": "Has Market Match Program",
+    "visible": true
+   },
+   {
+    "fieldName": "Affiliation",
+    "isEditable": true,
+    "label": "Affiliation",
+    "visible": false
+   },
+   {
+    "fieldName": "Place_addr",
+    "isEditable": true,
+    "label": "Place Addr",
+    "visible": false
+   }
+  ],
+  "title": "{USER_Market_Name}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_County_Name",
+   "type": "esriFieldTypeString",
+   "alias": "County\nName",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Market_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Market Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Market_Location",
+   "type": "esriFieldTypeString",
+   "alias": "Market Location",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Manager",
+   "type": "esriFieldTypeString",
+   "alias": "Manager",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Days",
+   "type": "esriFieldTypeString",
+   "alias": "Days",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Hours",
+   "type": "esriFieldTypeString",
+   "alias": "Hours",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Months",
+   "type": "esriFieldTypeString",
+   "alias": "Months",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Market_Phone",
+   "type": "esriFieldTypeString",
+   "alias": "Market Phone",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AcceptsEBT",
+   "type": "esriFieldTypeString",
+   "alias": "Accepts EBT",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MarketMatch",
+   "type": "esriFieldTypeString",
+   "alias": "Has Market Match Program",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Affiliation",
+   "type": "esriFieldTypeString",
+   "alias": "Affiliation",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Place_addr",
+   "type": "esriFieldTypeString",
+   "alias": "Place Addr",
+   "sqlType": "sqlTypeOther",
+   "length": 500,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

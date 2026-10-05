@@ -1,0 +1,1037 @@
+{
+ "title": "Parks 2025",
+ "group": [
+  "Urban Agriculture",
+  "Green and Garden Spaces"
+ ],
+ "url": "https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services/Countywide_Parks_and_Open_Space__(Public_-_Hosted2)/FeatureServer/0",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "color": [
+     226,
+     247,
+     215,
+     191
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "color": [
+      76,
+      230,
+      0,
+      255
+     ],
+     "width": 0.998,
+     "style": "esriSLSSolid"
+    },
+    "style": "esriSFSSolid"
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "PARK_NAME",
+      "isEditable": true,
+      "label": "Park Name",
+      "visible": true
+     },
+     {
+      "fieldName": "COGP_TYP",
+      "isEditable": true,
+      "label": "Park Type",
+      "visible": true
+     },
+     {
+      "fieldName": "ACCESS_TYP",
+      "isEditable": true,
+      "label": "Access Type",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 1,
+       "minimumFractionDigits": 1,
+       "useGrouping": "never"
+      },
+      "fieldName": "RPT_ACRES",
+      "format": {
+       "digitSeparator": false,
+       "places": 1
+      },
+      "isEditable": true,
+      "label": "Acres",
+      "visible": true
+     },
+     {
+      "fieldName": "AGNCY_NAME",
+      "isEditable": true,
+      "label": "Agency Name",
+      "visible": true
+     },
+     {
+      "fieldName": "MNG_AGENCY",
+      "isEditable": true,
+      "label": "Managing Agency",
+      "visible": true
+     },
+     {
+      "fieldName": "ADDRESS",
+      "isEditable": true,
+      "label": "Address",
+      "visible": true
+     },
+     {
+      "fieldName": "CITY",
+      "isEditable": true,
+      "label": "City",
+      "visible": true
+     },
+     {
+      "fieldName": "ZIP",
+      "isEditable": true,
+      "label": "Zip Code",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "UNIT_ID",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Unit ID",
+    "visible": false
+   },
+   {
+    "fieldName": "LMS_ID",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Internal ID",
+    "visible": false
+   },
+   {
+    "fieldName": "PARK_NAME",
+    "isEditable": true,
+    "label": "Park Name",
+    "visible": true
+   },
+   {
+    "fieldName": "PARK_LBL",
+    "isEditable": true,
+    "label": "Park Label",
+    "visible": false
+   },
+   {
+    "fieldName": "ACCESS_TYP",
+    "isEditable": true,
+    "label": "Access Type",
+    "visible": true
+   },
+   {
+    "fieldName": "RPT_ACRES",
+    "format": {
+     "digitSeparator": false,
+     "places": 1
+    },
+    "isEditable": true,
+    "label": "Acres",
+    "visible": true
+   },
+   {
+    "fieldName": "GIS_ACRES",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "GIS Acres",
+    "visible": false
+   },
+   {
+    "fieldName": "AGNCY_NAME",
+    "isEditable": true,
+    "label": "Agency Name",
+    "visible": true
+   },
+   {
+    "fieldName": "AGNCY_LEV",
+    "isEditable": true,
+    "label": "Agency Level",
+    "visible": false
+   },
+   {
+    "fieldName": "AGNCY_TYP",
+    "isEditable": true,
+    "label": "Agency Type",
+    "visible": false
+   },
+   {
+    "fieldName": "AGNCY_WEB",
+    "isEditable": true,
+    "label": "Agency Website",
+    "visible": false
+   },
+   {
+    "fieldName": "MNG_AGENCY",
+    "isEditable": true,
+    "label": "Managing Agency",
+    "visible": true
+   },
+   {
+    "fieldName": "COGP_TYP",
+    "isEditable": true,
+    "label": "Park Type",
+    "visible": true
+   },
+   {
+    "fieldName": "NDS_AN_TYP",
+    "isEditable": true,
+    "label": "Needs Assessment Park Type",
+    "visible": false
+   },
+   {
+    "fieldName": "NEEDS_ANLZ",
+    "isEditable": true,
+    "label": "Considered in Needs Analysis",
+    "visible": false
+   },
+   {
+    "fieldName": "TKIT_SUM",
+    "isEditable": true,
+    "label": "TKIT_SUM",
+    "visible": false
+   },
+   {
+    "fieldName": "AMEN_RPT",
+    "isEditable": true,
+    "label": "AMEN_RPT",
+    "visible": false
+   },
+   {
+    "fieldName": "PRKINF_CND",
+    "isEditable": true,
+    "label": "Infrastructure Condition",
+    "visible": false
+   },
+   {
+    "fieldName": "AM_OPNSP",
+    "isEditable": true,
+    "label": "Open Space Condition",
+    "visible": false
+   },
+   {
+    "fieldName": "AM_TRLS",
+    "isEditable": true,
+    "label": "Trail Condition",
+    "visible": false
+   },
+   {
+    "fieldName": "TRLS_MI",
+    "format": {
+     "digitSeparator": false,
+     "places": 1
+    },
+    "isEditable": true,
+    "label": "Total Trail Miles",
+    "visible": false
+   },
+   {
+    "fieldName": "TENIS",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Tennis",
+    "visible": false
+   },
+   {
+    "fieldName": "BSKTB",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Basketball",
+    "visible": false
+   },
+   {
+    "fieldName": "BASEB",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Baseball",
+    "visible": false
+   },
+   {
+    "fieldName": "SOCCR",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Soccer",
+    "visible": false
+   },
+   {
+    "fieldName": "MPFLD",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Multi-Purpose Field",
+    "visible": false
+   },
+   {
+    "fieldName": "FITZN",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Fitness Zone",
+    "visible": false
+   },
+   {
+    "fieldName": "SK8PK",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Skate Park",
+    "visible": false
+   },
+   {
+    "fieldName": "PCNIC",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Picnic Shelter",
+    "visible": false
+   },
+   {
+    "fieldName": "PLGND",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Playground",
+    "visible": false
+   },
+   {
+    "fieldName": "POOLS",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Pool",
+    "visible": false
+   },
+   {
+    "fieldName": "SPPAD",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Splash Pad",
+    "visible": false
+   },
+   {
+    "fieldName": "DGPRK",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Dog Park",
+    "visible": false
+   },
+   {
+    "fieldName": "GYM",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Gymnasium",
+    "visible": false
+   },
+   {
+    "fieldName": "COMCT",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Community Center",
+    "visible": false
+   },
+   {
+    "fieldName": "SNRCT",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Senior Center",
+    "visible": false
+   },
+   {
+    "fieldName": "RSTRM",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Restroom",
+    "visible": false
+   },
+   {
+    "fieldName": "TOTAL_GOOD",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Amenities in Good Condition",
+    "visible": false
+   },
+   {
+    "fieldName": "TOTAL_FAIR",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Amenities in Fair Condition",
+    "visible": false
+   },
+   {
+    "fieldName": "TOTAL_POOR",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Amenities in Poor Condition",
+    "visible": false
+   },
+   {
+    "fieldName": "TYPE",
+    "isEditable": true,
+    "label": "Needs Assessment Type",
+    "visible": false
+   },
+   {
+    "fieldName": "CENTER_LAT",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Latitude",
+    "visible": false
+   },
+   {
+    "fieldName": "CENTER_LON",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Longitude",
+    "visible": false
+   },
+   {
+    "fieldName": "ADDRESS",
+    "isEditable": true,
+    "label": "Address",
+    "visible": true
+   },
+   {
+    "fieldName": "CITY",
+    "isEditable": true,
+    "label": "City",
+    "visible": true
+   },
+   {
+    "fieldName": "ZIP",
+    "isEditable": true,
+    "label": "Zip Code",
+    "visible": true
+   },
+   {
+    "fieldName": "HOURS",
+    "isEditable": true,
+    "label": "Hours",
+    "visible": false
+   },
+   {
+    "fieldName": "PHONES",
+    "isEditable": true,
+    "label": "Phone",
+    "visible": false
+   },
+   {
+    "fieldName": "IS_COUNTY",
+    "isEditable": true,
+    "label": "IS_COUNTY",
+    "visible": false
+   }
+  ],
+  "title": "{PARK_NAME}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "UNIT_ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "UNIT_ID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PARK_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "PARK_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 100,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PARK_LBL",
+   "type": "esriFieldTypeString",
+   "alias": "PARK_LBL",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ACCESS_TYP",
+   "type": "esriFieldTypeString",
+   "alias": "ACCESS_TYP",
+   "sqlType": "sqlTypeOther",
+   "length": 20,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "RPT_ACRES",
+   "type": "esriFieldTypeDouble",
+   "alias": "RPT_ACRES",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GIS_ACRES",
+   "type": "esriFieldTypeDouble",
+   "alias": "GIS_ACRES",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AGNCY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "AGNCY_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AGNCY_LEV",
+   "type": "esriFieldTypeString",
+   "alias": "AGNCY_LEV",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AGNCY_TYP",
+   "type": "esriFieldTypeString",
+   "alias": "AGNCY_TYP",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AGNCY_WEB",
+   "type": "esriFieldTypeString",
+   "alias": "AGNCY_WEB",
+   "sqlType": "sqlTypeOther",
+   "length": 254,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MNG_AGENCY",
+   "type": "esriFieldTypeString",
+   "alias": "MNG_AGENCY",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "COGP_TYP",
+   "type": "esriFieldTypeString",
+   "alias": "COGP_TYP",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NDS_AN_TYP",
+   "type": "esriFieldTypeString",
+   "alias": "NDS_AN_TYP",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NEEDS_ANLZ",
+   "type": "esriFieldTypeString",
+   "alias": "NEEDS_ANLZ",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TKIT_SUM",
+   "type": "esriFieldTypeString",
+   "alias": "TKIT_SUM",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AMEN_RPT",
+   "type": "esriFieldTypeString",
+   "alias": "AMEN_RPT",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PRKINF_CND",
+   "type": "esriFieldTypeString",
+   "alias": "PRKINF_CND",
+   "sqlType": "sqlTypeOther",
+   "length": 254,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AM_OPNSP",
+   "type": "esriFieldTypeString",
+   "alias": "AM_OPNSP",
+   "sqlType": "sqlTypeOther",
+   "length": 254,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AM_TRLS",
+   "type": "esriFieldTypeString",
+   "alias": "AM_TRLS",
+   "sqlType": "sqlTypeOther",
+   "length": 254,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TRLS_MI",
+   "type": "esriFieldTypeDouble",
+   "alias": "TRLS_MI",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TENIS",
+   "type": "esriFieldTypeDouble",
+   "alias": "TENIS",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "BSKTB",
+   "type": "esriFieldTypeDouble",
+   "alias": "BSKTB",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "BASEB",
+   "type": "esriFieldTypeDouble",
+   "alias": "BASEB",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SOCCR",
+   "type": "esriFieldTypeDouble",
+   "alias": "SOCCR",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MPFLD",
+   "type": "esriFieldTypeDouble",
+   "alias": "MPFLD",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FITZN",
+   "type": "esriFieldTypeDouble",
+   "alias": "FITZN",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SK8PK",
+   "type": "esriFieldTypeDouble",
+   "alias": "SK8PK",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PCNIC",
+   "type": "esriFieldTypeDouble",
+   "alias": "PCNIC",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PLGND",
+   "type": "esriFieldTypeDouble",
+   "alias": "PLGND",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "POOLS",
+   "type": "esriFieldTypeDouble",
+   "alias": "POOLS",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SPPAD",
+   "type": "esriFieldTypeDouble",
+   "alias": "SPPAD",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "DGPRK",
+   "type": "esriFieldTypeDouble",
+   "alias": "DGPRK",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GYM",
+   "type": "esriFieldTypeDouble",
+   "alias": "GYM",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "COMCT",
+   "type": "esriFieldTypeDouble",
+   "alias": "COMCT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SNRCT",
+   "type": "esriFieldTypeDouble",
+   "alias": "SNRCT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "RSTRM",
+   "type": "esriFieldTypeDouble",
+   "alias": "RSTRM",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TOTAL_GOOD",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "TOTAL_GOOD",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TOTAL_FAIR",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "TOTAL_FAIR",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TOTAL_POOR",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "TOTAL_POOR",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LMS_ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "LMS_ID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CENTER_LAT",
+   "type": "esriFieldTypeDouble",
+   "alias": "CENTER_LAT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CENTER_LON",
+   "type": "esriFieldTypeDouble",
+   "alias": "CENTER_LON",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 75,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CITY",
+   "type": "esriFieldTypeString",
+   "alias": "CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 35,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ZIP",
+   "type": "esriFieldTypeString",
+   "alias": "ZIP",
+   "sqlType": "sqlTypeOther",
+   "length": 12,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "HOURS",
+   "type": "esriFieldTypeString",
+   "alias": "HOURS",
+   "sqlType": "sqlTypeOther",
+   "length": 1000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PHONES",
+   "type": "esriFieldTypeString",
+   "alias": "PHONES",
+   "sqlType": "sqlTypeOther",
+   "length": 100,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "IS_COUNTY",
+   "type": "esriFieldTypeString",
+   "alias": "IS_COUNTY",
+   "sqlType": "sqlTypeOther",
+   "length": 3,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

@@ -1,0 +1,402 @@
+{
+ "title": "Middle Schools",
+ "group": [
+  "Schools"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LA_County_Middle_Schools/FeatureServer/3",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriPMS",
+    "url": "fbabe9499a6fc9959c37483567668871",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB4ElEQVQ4jaVTMUvDQBj9YqMQEMRYa62L2aTWxVAc1EUKLgqiEHVwUvwROigILo5u4q4eVBDdLEWqHVssVFCodNDGqrWCRrLUVl7iadoqDn4QjuTuve99915E+meJv20wxhQiUalUyq2C0PBMVMpqmpb9k4AxprxXXAvtHR7V3SbLkiRJpmmahadicWcvnHAJ79tOItEJ3t0N97d3eNb7Av5Amyx3nelHlDF1muhdtPYNwwjGTuN+xvY3NW0yWkXAGFOcYHy7ek7QdnqVDq63aGP4kNzNnXIoNDIaiURx3hpJ5ASQ7QTzGvKN03xghdxSp/Xe1NgoDQwEg8eRkwUiWhYd3VUuG51Rl8UEFUyd4vqR9Qz6xqinVSWc83o9KnDi51UouDAumwPdkq+KCAUCFM4/3j/aBLAKt81lc3Dt6iycB07EC3yGVXzzJ7CtwO7+Qw5KWfiM+Z3ya9ez3OHXPdzc5nKCUE5aBLADIVG6W4I9sip/d6pfC+Yd6WY+k88/JGanHTYiYU8XJf9caGkUVtVp/SzDMIqx03haqFC4KkhQgYQhJPC5Ng8oXc9nzlOp9OvL29rMzFSyisAmmYwiYQgJfOb/AvYwM2SjMwfXEXAlSBhCAp9hle1UOYmZa2f6AIiRBbcI4/dsAAAAAElFTkSuQmCC",
+    "contentType": "image/png",
+    "width": 12,
+    "height": 12,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "name",
+      "isEditable": true,
+      "label": "Name",
+      "visible": true
+     },
+     {
+      "fieldName": "addrln1",
+      "isEditable": true,
+      "label": "Street Address",
+      "visible": true
+     },
+     {
+      "fieldName": "city",
+      "isEditable": true,
+      "label": "City",
+      "visible": true
+     },
+     {
+      "fieldName": "state",
+      "isEditable": true,
+      "label": "State",
+      "visible": true
+     },
+     {
+      "fieldName": "zip",
+      "isEditable": true,
+      "label": "ZIP Code",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "enrollment",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Enrollment",
+      "visible": true
+     },
+     {
+      "fieldName": "organization",
+      "isEditable": true,
+      "label": "Organization",
+      "visible": true
+     },
+     {
+      "fieldName": "cat3",
+      "isEditable": true,
+      "label": "School Type",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "cat2",
+    "isEditable": true,
+    "label": "School Level",
+    "visible": false
+   },
+   {
+    "fieldName": "cat3",
+    "isEditable": true,
+    "label": "School Type",
+    "visible": true
+   },
+   {
+    "fieldName": "name",
+    "isEditable": true,
+    "label": "Name",
+    "visible": true
+   },
+   {
+    "fieldName": "addrln1",
+    "isEditable": true,
+    "label": "Street Address",
+    "visible": true
+   },
+   {
+    "fieldName": "city",
+    "isEditable": true,
+    "label": "City",
+    "visible": true
+   },
+   {
+    "fieldName": "state",
+    "isEditable": true,
+    "label": "State",
+    "visible": true
+   },
+   {
+    "fieldName": "zip",
+    "isEditable": true,
+    "label": "ZIP Code",
+    "visible": true
+   },
+   {
+    "fieldName": "organization",
+    "isEditable": true,
+    "label": "Organization",
+    "visible": true
+   },
+   {
+    "fieldName": "source",
+    "isEditable": true,
+    "label": "Source",
+    "visible": false
+   },
+   {
+    "fieldName": "source_id",
+    "isEditable": true,
+    "label": "Source ID",
+    "visible": false
+   },
+   {
+    "fieldName": "source_date",
+    "isEditable": true,
+    "label": "Source Date",
+    "visible": false
+   },
+   {
+    "fieldName": "latitude",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Latitude",
+    "visible": false
+   },
+   {
+    "fieldName": "longitude",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Longitude",
+    "visible": false
+   },
+   {
+    "fieldName": "enrollment",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Enrollment",
+    "visible": true
+   },
+   {
+    "fieldName": "label_class",
+    "isEditable": true,
+    "label": "Label Class",
+    "visible": false
+   },
+   {
+    "fieldName": "last_update",
+    "format": {
+     "dateFormat": "shortDateShortTime",
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Last Update",
+    "visible": false
+   }
+  ],
+  "title": "{name}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "cat2",
+   "type": "esriFieldTypeString",
+   "alias": "Category2",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "cat3",
+   "type": "esriFieldTypeString",
+   "alias": "Category3",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "name",
+   "type": "esriFieldTypeString",
+   "alias": "Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "addrln1",
+   "type": "esriFieldTypeString",
+   "alias": "Address Line 1",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "city",
+   "type": "esriFieldTypeString",
+   "alias": "City",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "state",
+   "type": "esriFieldTypeString",
+   "alias": "State",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "zip",
+   "type": "esriFieldTypeString",
+   "alias": "ZIP Code",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "organization",
+   "type": "esriFieldTypeString",
+   "alias": "Organization",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "source",
+   "type": "esriFieldTypeString",
+   "alias": "Source",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "source_id",
+   "type": "esriFieldTypeString",
+   "alias": "Source ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "source_date",
+   "type": "esriFieldTypeString",
+   "alias": "Source Date",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "latitude",
+   "type": "esriFieldTypeDouble",
+   "alias": "Latitude",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "longitude",
+   "type": "esriFieldTypeDouble",
+   "alias": "Longitude",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "enrollment",
+   "type": "esriFieldTypeDouble",
+   "alias": "Enrollment",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "label_class",
+   "type": "esriFieldTypeString",
+   "alias": "Label Class",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "last_update",
+   "type": "esriFieldTypeDate",
+   "alias": "Last Update",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null,
+   "precision": 1
+  }
+ ]
+}

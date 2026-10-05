@@ -1,0 +1,535 @@
+{
+ "title": "Healthy Places Index",
+ "group": [
+  "Neighborhood Characteristics"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/Healthy_Places_Index_GEO20/FeatureServer/33",
+ "drawingInfo": {
+  "renderer": {
+   "type": "classBreaks",
+   "authoringInfo": {
+    "type": "classedColor",
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        4,
+        209,
+        38,
+        255
+       ],
+       "toColor": [
+        19,
+        242,
+        242,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        19,
+        242,
+        242,
+        255
+       ],
+       "toColor": [
+        76,
+        41,
+        230,
+        255
+       ]
+      }
+     ]
+    },
+    "classificationMethod": "esriClassifyQuantile"
+   },
+   "field": "hpi_percentile",
+   "classificationMethod": "esriClassifyQuantile",
+   "defaultSymbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     130,
+     130,
+     130,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      110,
+      110,
+      110,
+      255
+     ],
+     "width": 0.7
+    }
+   },
+   "defaultLabel": "No Data",
+   "minValue": 0.0001,
+   "classBreakInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       32,
+       112,
+       177,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 0.1766,
+     "label": "0.0001 - 0.1766"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       158,
+       202,
+       224,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 0.386,
+     "label": "0.1766 - 0.3860"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       166,
+       219,
+       159,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 0.6485,
+     "label": "0.3860 - 0.6485"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       135,
+       54,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 0.9861,
+     "label": "0.6485 - 0.9861"
+    }
+   ],
+   "legendOptions": {
+    "order": "ascendingValues"
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "hpi_percentile",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "Healthy Places Index 3.0",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "population",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "Population",
+      "visible": true
+     },
+     {
+      "fieldName": "Geo_Area_Name",
+      "isEditable": true,
+      "label": "Geographic Area Name",
+      "visible": true
+     },
+     {
+      "fieldName": "GEOID_20",
+      "isEditable": true,
+      "label": "Census Tract Geographic ID",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.Geo_Area_Name",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "CT20",
+    "isEditable": true,
+    "label": "CT20",
+    "visible": false
+   },
+   {
+    "fieldName": "LABEL",
+    "isEditable": true,
+    "label": "LABEL",
+    "visible": false
+   },
+   {
+    "fieldName": "GEOID_20",
+    "isEditable": true,
+    "label": "Census Tract Geographic ID",
+    "visible": true
+   },
+   {
+    "fieldName": "ShortID",
+    "isEditable": true,
+    "label": "ShortID",
+    "visible": false
+   },
+   {
+    "fieldName": "Geo_Area_Name",
+    "isEditable": true,
+    "label": "Geographic Area Name",
+    "visible": true
+   },
+   {
+    "fieldName": "county",
+    "isEditable": true,
+    "label": "County",
+    "visible": false
+   },
+   {
+    "fieldName": "population",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Population",
+    "visible": true
+   },
+   {
+    "fieldName": "hpi_raw",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "hpi_raw",
+    "visible": false
+   },
+   {
+    "fieldName": "hpi_perc_raw",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "hpi_perc_raw",
+    "visible": false
+   },
+   {
+    "fieldName": "hpi_percentile",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Healthy Places Index 3.0",
+    "visible": true
+   },
+   {
+    "fieldName": "Data_Value",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Data_Value",
+    "visible": false
+   },
+   {
+    "fieldName": "OBJECTID_1",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{expression/displayExp}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CT20",
+   "type": "esriFieldTypeString",
+   "alias": "CT20",
+   "sqlType": "sqlTypeOther",
+   "length": 6,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "LABEL",
+   "sqlType": "sqlTypeOther",
+   "length": 7,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOID_20",
+   "type": "esriFieldTypeString",
+   "alias": "Census Tract Geographic ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShortID",
+   "type": "esriFieldTypeString",
+   "alias": "ShortID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Geo_Area_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Geographic Area Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "county",
+   "type": "esriFieldTypeString",
+   "alias": "County",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "population",
+   "type": "esriFieldTypeDouble",
+   "alias": "Population",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "hpi_raw",
+   "type": "esriFieldTypeDouble",
+   "alias": "hpi_raw",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "hpi_perc_raw",
+   "type": "esriFieldTypeDouble",
+   "alias": "hpi_perc_raw",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "hpi_percentile",
+   "type": "esriFieldTypeDouble",
+   "alias": "Healthy Places Index 3.0",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Data_Value",
+   "type": "esriFieldTypeDouble",
+   "alias": "Data_Value",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID_1",
+   "type": "esriFieldTypeInteger",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

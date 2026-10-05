@@ -1,0 +1,232 @@
+{
+ "title": "LA City Council Districts",
+ "group": [
+  "Spatial Boundaries"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LA_City_Council_Districts_2021/FeatureServer/270",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     130,
+     130,
+     130,
+     0
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      0,
+      77,
+      168,
+      255
+     ],
+     "width": 1.2
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "NAME",
+      "isEditable": true,
+      "label": "NAME",
+      "visible": true
+     },
+     {
+      "fieldName": "District_Name",
+      "isEditable": true,
+      "label": "District_Name",
+      "visible": true
+     },
+     {
+      "fieldName": "District",
+      "isEditable": true,
+      "label": "District",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.NAME",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "NAME",
+    "isEditable": true,
+    "label": "NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "District_Name",
+    "isEditable": true,
+    "label": "District_Name",
+    "visible": true
+   },
+   {
+    "fieldName": "District",
+    "isEditable": true,
+    "label": "District",
+    "visible": true
+   },
+   {
+    "fieldName": "NLA_URL",
+    "isEditable": true,
+    "label": "NLA_URL",
+    "visible": false
+   },
+   {
+    "fieldName": "SQMI",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "SQMI",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{expression/displayExp}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "District_Name",
+   "type": "esriFieldTypeString",
+   "alias": "District_Name",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "District",
+   "type": "esriFieldTypeString",
+   "alias": "District",
+   "sqlType": "sqlTypeOther",
+   "length": 512,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NLA_URL",
+   "type": "esriFieldTypeString",
+   "alias": "NLA_URL",
+   "sqlType": "sqlTypeOther",
+   "length": 67,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SQMI",
+   "type": "esriFieldTypeDouble",
+   "alias": "SQMI",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

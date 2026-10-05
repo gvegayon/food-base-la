@@ -1,0 +1,629 @@
+{
+ "title": "Publicly Owned Vacant Land Parcels",
+ "group": [
+  "Urban Agriculture"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/Potential_Community_Garden_Sites/FeatureServer/68",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "CIMSymbolReference",
+    "symbol": {
+     "type": "CIMPolygonSymbol",
+     "symbolLayers": [
+      {
+       "type": "CIMSolidStroke",
+       "enable": true,
+       "name": "New_f3a6dcd3-c2d3-421a-a7af-cce5e77498c7",
+       "capStyle": "Round",
+       "joinStyle": "Round",
+       "lineStyle3D": "Strip",
+       "miterLimit": 10,
+       "width": 0.4,
+       "height3D": 1,
+       "anchor3D": "Center",
+       "color": [
+        0,
+        0,
+        0,
+        191
+       ]
+      },
+      {
+       "type": "CIMSolidFill",
+       "enable": true,
+       "name": "New_6ce48589-d694-4536-90c9-474fb5916079",
+       "color": [
+        0,
+        230,
+        169,
+        255
+       ]
+      }
+     ],
+     "angleAlignment": "Map"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "APN",
+      "isEditable": true,
+      "label": "APN",
+      "visible": true
+     },
+     {
+      "fieldName": "OwnerFullName",
+      "isEditable": true,
+      "label": "Owner",
+      "visible": true
+     },
+     {
+      "fieldName": "UseCode",
+      "isEditable": true,
+      "label": "Use Code",
+      "visible": true
+     },
+     {
+      "fieldName": "UseType",
+      "isEditable": true,
+      "label": "Use Type",
+      "visible": true
+     },
+     {
+      "fieldName": "UseDescription",
+      "isEditable": true,
+      "label": "Use Description",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "useGrouping": "never"
+      },
+      "fieldName": "GroceryHalfMile",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "Grocery within Half Mile",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "useGrouping": "never"
+      },
+      "fieldName": "LowIncome",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "Low Income",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "useGrouping": "never"
+      },
+      "fieldName": "EnvironmentalBurden",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "Environmental Burden",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "useGrouping": "never"
+      },
+      "fieldName": "CommunityServiceHalfMile",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "Community Service within Half Mile",
+      "visible": true
+     },
+     {
+      "fieldName": "SitusFullAddress",
+      "isEditable": true,
+      "label": "Address",
+      "visible": true
+     },
+     {
+      "fieldName": "TaxRateCity",
+      "isEditable": true,
+      "label": "City",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "CENTER_LAT",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "Latitude",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "CENTER_LON",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "Longitude",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "AIN",
+    "isEditable": true,
+    "label": "AIN",
+    "visible": false
+   },
+   {
+    "fieldName": "APN",
+    "isEditable": true,
+    "label": "APN",
+    "visible": true
+   },
+   {
+    "fieldName": "SitusFullAddress",
+    "isEditable": true,
+    "label": "Address",
+    "visible": true
+   },
+   {
+    "fieldName": "TaxRateCity",
+    "isEditable": true,
+    "label": "City",
+    "visible": true
+   },
+   {
+    "fieldName": "AgencyName",
+    "isEditable": true,
+    "label": "Agency",
+    "visible": false
+   },
+   {
+    "fieldName": "UseCode",
+    "isEditable": true,
+    "label": "Use Code",
+    "visible": true
+   },
+   {
+    "fieldName": "UseCode_2",
+    "isEditable": true,
+    "label": "Use Code 2",
+    "visible": false
+   },
+   {
+    "fieldName": "UseType",
+    "isEditable": true,
+    "label": "Use Type",
+    "visible": true
+   },
+   {
+    "fieldName": "UseDescription",
+    "isEditable": true,
+    "label": "Use Description",
+    "visible": true
+   },
+   {
+    "fieldName": "OwnerFullName",
+    "isEditable": true,
+    "label": "Owner",
+    "visible": true
+   },
+   {
+    "fieldName": "MailAddress",
+    "isEditable": true,
+    "label": "Mail Address",
+    "visible": false
+   },
+   {
+    "fieldName": "MailCity",
+    "isEditable": true,
+    "label": "Mail City",
+    "visible": false
+   },
+   {
+    "fieldName": "MailZip",
+    "isEditable": true,
+    "label": "Mail Zip",
+    "visible": false
+   },
+   {
+    "fieldName": "CENTER_LAT",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Latitude",
+    "visible": true
+   },
+   {
+    "fieldName": "CENTER_LON",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Longitude",
+    "visible": true
+   },
+   {
+    "fieldName": "LAT_LON",
+    "isEditable": true,
+    "label": "Coordinates",
+    "visible": false
+   },
+   {
+    "fieldName": "GroceryHalfMile",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Grocery within Half Mile",
+    "visible": true
+   },
+   {
+    "fieldName": "LowIncome",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Low Income",
+    "visible": true
+   },
+   {
+    "fieldName": "EnvironmentalBurden",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Environmental Burden",
+    "visible": true
+   },
+   {
+    "fieldName": "CommunityServiceHalfMile",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Community Service within Half Mile",
+    "visible": true
+   },
+   {
+    "fieldName": "LoadDate",
+    "format": {
+     "dateFormat": "shortDateShortTime",
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "LoadDate",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": false
+   }
+  ],
+  "title": "LA County Parcel: {APN}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AIN",
+   "type": "esriFieldTypeString",
+   "alias": "AIN",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "APN",
+   "type": "esriFieldTypeString",
+   "alias": "APN",
+   "sqlType": "sqlTypeOther",
+   "length": 12,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SitusFullAddress",
+   "type": "esriFieldTypeString",
+   "alias": "SitusFullAddress",
+   "sqlType": "sqlTypeOther",
+   "length": 84,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TaxRateCity",
+   "type": "esriFieldTypeString",
+   "alias": "TaxRateCity",
+   "sqlType": "sqlTypeOther",
+   "length": 21,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AgencyName",
+   "type": "esriFieldTypeString",
+   "alias": "AgencyName",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "UseCode",
+   "type": "esriFieldTypeString",
+   "alias": "UseCode",
+   "sqlType": "sqlTypeOther",
+   "length": 4,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "UseCode_2",
+   "type": "esriFieldTypeString",
+   "alias": "UseCode_2",
+   "sqlType": "sqlTypeOther",
+   "length": 2,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "UseType",
+   "type": "esriFieldTypeString",
+   "alias": "UseType",
+   "sqlType": "sqlTypeOther",
+   "length": 14,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "UseDescription",
+   "type": "esriFieldTypeString",
+   "alias": "UseDescription",
+   "sqlType": "sqlTypeOther",
+   "length": 61,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OwnerFullName",
+   "type": "esriFieldTypeString",
+   "alias": "OwnerFullName",
+   "sqlType": "sqlTypeOther",
+   "length": 131,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MailAddress",
+   "type": "esriFieldTypeString",
+   "alias": "MailAddress",
+   "sqlType": "sqlTypeOther",
+   "length": 55,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MailCity",
+   "type": "esriFieldTypeString",
+   "alias": "MailCity",
+   "sqlType": "sqlTypeOther",
+   "length": 24,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MailZip",
+   "type": "esriFieldTypeString",
+   "alias": "MailZip",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CENTER_LAT",
+   "type": "esriFieldTypeDouble",
+   "alias": "CENTER_LAT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CENTER_LON",
+   "type": "esriFieldTypeDouble",
+   "alias": "CENTER_LON",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LAT_LON",
+   "type": "esriFieldTypeString",
+   "alias": "LAT_LON",
+   "sqlType": "sqlTypeOther",
+   "length": 62,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GroceryHalfMile",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "GroceryHalfMile",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LowIncome",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "LowIncome",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "EnvironmentalBurden",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "EnvironmentalBurden",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CommunityServiceHalfMile",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "CommunityServiceHalfMile",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LoadDate",
+   "type": "esriFieldTypeDate",
+   "alias": "LoadDate",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null,
+   "precision": 1
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

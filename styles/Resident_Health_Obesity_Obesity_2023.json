@@ -1,0 +1,409 @@
+{
+ "title": "Obesity 2023",
+ "group": [
+  "Resident Health",
+  "Obesity"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/QAQC_Obesity_2023/FeatureServer/1",
+ "drawingInfo": {
+  "renderer": {
+   "type": "classBreaks",
+   "authoringInfo": {
+    "type": "classedColor",
+    "colorRamp": {
+     "type": "algorithmic",
+     "algorithm": "esriHSVAlgorithm",
+     "fromColor": [
+      245,
+      245,
+      0,
+      255
+     ],
+     "toColor": [
+      245,
+      0,
+      0,
+      255
+     ]
+    },
+    "classificationMethod": "esriClassifyQuantile"
+   },
+   "field": "OBESITY_CrudePrev",
+   "classificationMethod": "esriClassifyQuantile",
+   "defaultSymbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     204,
+     204,
+     204,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      110,
+      110,
+      110,
+      255
+     ],
+     "width": 0.25
+    }
+   },
+   "defaultLabel": "No Data",
+   "minValue": 14.5,
+   "classBreakInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       235,
+       175,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 23.7,
+     "label": "14.5 - 23.7"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       211,
+       127,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 26.7,
+     "label": "23.8 - 26.7"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       167,
+       127,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 30.4,
+     "label": "26.8 - 30.4"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       245,
+       122,
+       122,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 34.3,
+     "label": "30.5 - 34.3"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       205,
+       102,
+       102,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 51.2,
+     "label": "34.4 - 51.2"
+    }
+   ],
+   "legendOptions": {
+    "order": "ascendingValues"
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 1,
+       "minimumFractionDigits": 1,
+       "useGrouping": "never"
+      },
+      "fieldName": "OBESITY_CrudePrev",
+      "format": {
+       "digitSeparator": false,
+       "places": 1
+      },
+      "isEditable": true,
+      "label": "Crude prevalence (%) of obesity among adults 18+",
+      "visible": true
+     },
+     {
+      "fieldName": "NAME",
+      "isEditable": true,
+      "label": "Geographic Area Name",
+      "visible": true
+     },
+     {
+      "fieldName": "GEOID",
+      "isEditable": true,
+      "label": "Census Tract Geographic ID",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.GEOID",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "GEOID",
+    "isEditable": true,
+    "label": "Census Tract Geographic ID",
+    "visible": true
+   },
+   {
+    "fieldName": "OBESITY_CrudePrev",
+    "format": {
+     "digitSeparator": false,
+     "places": 1
+    },
+    "isEditable": true,
+    "label": "Crude prevalence (%) of obesity among adults 18+",
+    "visible": true
+   },
+   {
+    "fieldName": "obesity_Crude95CI",
+    "isEditable": true,
+    "label": "Crude 95% confidence interval",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Data_Value",
+    "isEditable": true,
+    "label": "Data_Value",
+    "visible": false
+   },
+   {
+    "fieldName": "GEOID_20",
+    "isEditable": true,
+    "label": "GEOID_20",
+    "visible": false
+   },
+   {
+    "fieldName": "NAME",
+    "isEditable": true,
+    "label": "Geographic Area Name",
+    "visible": true
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{NAME}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOID",
+   "type": "esriFieldTypeString",
+   "alias": "GEOID",
+   "sqlType": "sqlTypeOther",
+   "length": 254,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBESITY_CrudePrev",
+   "type": "esriFieldTypeDouble",
+   "alias": "Crude prevalence of obesity among adults 18+",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "obesity_Crude95CI",
+   "type": "esriFieldTypeString",
+   "alias": "Crude 95% Confidence Interval",
+   "sqlType": "sqlTypeOther",
+   "length": 254,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Data_Value",
+   "type": "esriFieldTypeDouble",
+   "alias": "Data_Value",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOID_20",
+   "type": "esriFieldTypeString",
+   "alias": "GEOID_20",
+   "sqlType": "sqlTypeOther",
+   "length": 15,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 512,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

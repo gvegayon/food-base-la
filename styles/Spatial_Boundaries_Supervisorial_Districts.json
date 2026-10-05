@@ -1,0 +1,264 @@
+{
+ "title": "Supervisorial Districts",
+ "group": [
+  "Spatial Boundaries"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/L_A__County_Food_Data_WFL1/FeatureServer/2",
+ "drawingInfo": {
+  "labelingInfo": [
+   {
+    "name": "Class 1",
+    "allowOverrun": true,
+    "labelExpression": "[LABEL]",
+    "labelExpressionInfo": {
+     "expression": "$feature[\"LABEL\"]"
+    },
+    "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+    "repeatLabel": false,
+    "symbol": {
+     "type": "esriTS",
+     "color": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "font": {
+      "family": "Tahoma",
+      "size": 10
+     },
+     "horizontalAlignment": "left",
+     "kerning": true,
+     "rightToLeft": false,
+     "rotated": false,
+     "text": "",
+     "verticalAlignment": "bottom",
+     "xoffset": 0,
+     "yoffset": 0,
+     "angle": 0
+    },
+    "useCodedValues": true
+   }
+  ],
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "CIMSymbolReference",
+    "symbol": {
+     "type": "CIMPolygonSymbol",
+     "symbolLayers": [
+      {
+       "type": "CIMSolidStroke",
+       "enable": true,
+       "colorLocked": true,
+       "capStyle": "Butt",
+       "joinStyle": "Round",
+       "lineStyle3D": "Strip",
+       "miterLimit": 10,
+       "width": 2,
+       "height3D": 1,
+       "anchor3D": "Center",
+       "color": [
+        102,
+        153,
+        205,
+        255
+       ]
+      },
+      {
+       "type": "CIMSolidFill",
+       "enable": true,
+       "color": [
+        130,
+        130,
+        130,
+        0
+       ]
+      }
+     ],
+     "angleAlignment": "Map"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "FID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "FID",
+    "visible": false
+   },
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "DISTRICT",
+    "isEditable": true,
+    "label": "DISTRICT",
+    "visible": false
+   },
+   {
+    "fieldName": "LABEL",
+    "isEditable": true,
+    "label": "LABEL",
+    "visible": false
+   },
+   {
+    "fieldName": "ShapeSTAre",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ShapeSTAre",
+    "visible": false
+   },
+   {
+    "fieldName": "ShapeSTLen",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ShapeSTLen",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Length",
+    "visible": false
+   }
+  ],
+  "title": "Supervisor District {DISTRICT}"
+ },
+ "fields": [
+  {
+   "name": "FID",
+   "type": "esriFieldTypeOID",
+   "alias": "FID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "DISTRICT",
+   "type": "esriFieldTypeString",
+   "alias": "DISTRICT",
+   "sqlType": "sqlTypeOther",
+   "length": 1,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "LABEL",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShapeSTAre",
+   "type": "esriFieldTypeDouble",
+   "alias": "ShapeSTAre",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShapeSTLen",
+   "type": "esriFieldTypeDouble",
+   "alias": "ShapeSTLen",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SQMI",
+   "type": "esriFieldTypeDouble",
+   "alias": "SQMI",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

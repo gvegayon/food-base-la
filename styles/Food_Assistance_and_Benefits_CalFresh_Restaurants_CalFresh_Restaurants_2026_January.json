@@ -1,0 +1,411 @@
+{
+ "title": "CalFresh Restaurants 2026 (January)",
+ "group": [
+  "Food Assistance and Benefits",
+  "CalFresh Restaurants"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LACounty_CalFresh_Restaurants_January2026/FeatureServer/269",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSMS",
+    "color": [
+     20,
+     89,
+     38,
+     128
+    ],
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "size": 9,
+    "style": "esriSMSDiamond",
+    "outline": {
+     "type": "esriSLS",
+     "color": [
+      20,
+      89,
+      38,
+      255
+     ],
+     "width": 0.75,
+     "style": "esriSLSSolid"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "Store_Type",
+      "isEditable": true,
+      "label": "Store Type",
+      "visible": true
+     },
+     {
+      "fieldName": "Store_Name",
+      "isEditable": true,
+      "label": "Store Name",
+      "visible": true
+     },
+     {
+      "fieldName": "Store_Stre",
+      "isEditable": true,
+      "label": "Address",
+      "visible": true
+     },
+     {
+      "fieldName": "City",
+      "isEditable": true,
+      "label": "City",
+      "visible": true
+     },
+     {
+      "fieldName": "State",
+      "isEditable": true,
+      "label": "State",
+      "visible": true
+     },
+     {
+      "fieldName": "Zip_Code",
+      "isEditable": true,
+      "label": "ZIPCode",
+      "visible": true
+     },
+     {
+      "fieldName": "Zip4",
+      "isEditable": true,
+      "label": "ZIP4",
+      "visible": true
+     },
+     {
+      "fieldName": "County",
+      "isEditable": true,
+      "label": "County",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "useGrouping": "never"
+      },
+      "fieldName": "Record_ID",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "Record ID",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.Store_Name",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "Record_ID",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "Record ID",
+    "visible": true
+   },
+   {
+    "fieldName": "Store_Name",
+    "isEditable": true,
+    "label": "Store Name",
+    "visible": true
+   },
+   {
+    "fieldName": "Store_Stre",
+    "isEditable": true,
+    "label": "Address",
+    "visible": true
+   },
+   {
+    "fieldName": "Additonal_",
+    "isEditable": true,
+    "label": "Additonal_",
+    "visible": false
+   },
+   {
+    "fieldName": "City",
+    "isEditable": true,
+    "label": "City",
+    "visible": true
+   },
+   {
+    "fieldName": "State",
+    "isEditable": true,
+    "label": "State",
+    "visible": true
+   },
+   {
+    "fieldName": "Zip_Code",
+    "isEditable": true,
+    "label": "ZIPCode",
+    "visible": true
+   },
+   {
+    "fieldName": "Zip4",
+    "isEditable": true,
+    "label": "ZIP4",
+    "visible": true
+   },
+   {
+    "fieldName": "County",
+    "isEditable": true,
+    "label": "County",
+    "visible": true
+   },
+   {
+    "fieldName": "Store_Type",
+    "isEditable": true,
+    "label": "Store Type",
+    "visible": true
+   },
+   {
+    "fieldName": "Latitude",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Latitude",
+    "visible": false
+   },
+   {
+    "fieldName": "Longitude",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Longitude",
+    "visible": false
+   },
+   {
+    "fieldName": "Incentive_",
+    "isEditable": true,
+    "label": "Incentive_",
+    "visible": false
+   },
+   {
+    "fieldName": "Grantee_Na",
+    "isEditable": true,
+    "label": "Grantee_Na",
+    "visible": false
+   },
+   {
+    "fieldName": "OBJECTID_1",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "ObjectId",
+    "visible": false
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{expression/displayExp}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Record_ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "Record_ID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Store_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Store_Name",
+   "sqlType": "sqlTypeOther",
+   "length": 59,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Store_Stre",
+   "type": "esriFieldTypeString",
+   "alias": "Store_Stre",
+   "sqlType": "sqlTypeOther",
+   "length": 48,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Additonal_",
+   "type": "esriFieldTypeString",
+   "alias": "Additonal_",
+   "sqlType": "sqlTypeOther",
+   "length": 40,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "City",
+   "type": "esriFieldTypeString",
+   "alias": "City",
+   "sqlType": "sqlTypeOther",
+   "length": 26,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "State",
+   "type": "esriFieldTypeString",
+   "alias": "State",
+   "sqlType": "sqlTypeOther",
+   "length": 2,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Zip_Code",
+   "type": "esriFieldTypeString",
+   "alias": "Zip_Code",
+   "sqlType": "sqlTypeOther",
+   "length": 5,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Zip4",
+   "type": "esriFieldTypeString",
+   "alias": "Zip4",
+   "sqlType": "sqlTypeOther",
+   "length": 4,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "County",
+   "type": "esriFieldTypeString",
+   "alias": "County",
+   "sqlType": "sqlTypeOther",
+   "length": 21,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Store_Type",
+   "type": "esriFieldTypeString",
+   "alias": "Store_Type",
+   "sqlType": "sqlTypeOther",
+   "length": 24,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Latitude",
+   "type": "esriFieldTypeDouble",
+   "alias": "Latitude",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Longitude",
+   "type": "esriFieldTypeDouble",
+   "alias": "Longitude",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Incentive_",
+   "type": "esriFieldTypeString",
+   "alias": "Incentive_",
+   "sqlType": "sqlTypeOther",
+   "length": 6,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Grantee_Na",
+   "type": "esriFieldTypeString",
+   "alias": "Grantee_Na",
+   "sqlType": "sqlTypeOther",
+   "length": 67,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID_1",
+   "type": "esriFieldTypeInteger",
+   "alias": "ObjectId",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

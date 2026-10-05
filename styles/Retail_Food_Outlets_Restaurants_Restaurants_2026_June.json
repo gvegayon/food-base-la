@@ -1,0 +1,557 @@
+{
+ "title": "Restaurants 2026 (June)",
+ "group": [
+  "Retail Food Outlets",
+  "Restaurants"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LACounty_Restaurants_June26_EnvHealth_Geocoded/FeatureServer/30",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriPMS",
+    "url": "ce049a454251792ab9ada61b12859ff3",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjElEQVQImU3OoQ7BcRiF4Wf8Nrdg09gUjSIyQVBsNskmyppb0DWBWxAEhSop5hbM3II/sw/Bid/77T0n+aaIbqKe8cI0jilAgcWIfof8ASt6GdWA3QnNGfn4buFOZcM4hapM6af/pE1uSz1lXC//BGeeGafQztc0MKiR2/PcccQuoAfDZXR8154C4PYGaEYe9nLJaGQAAAAASUVORK5CYII=",
+    "contentType": "image/png",
+    "width": 5,
+    "height": 5,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "FACILITY_NAME",
+      "isEditable": true,
+      "label": "FACILITY NAME",
+      "visible": true
+     },
+     {
+      "fieldName": "PE_DESCRIPTION",
+      "isEditable": true,
+      "label": "PE DESCRIPTION",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY_ADDRESS",
+      "isEditable": true,
+      "label": "FACILITY ADDRESS",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY_CITY",
+      "isEditable": true,
+      "label": "FACILITY CITY",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY__STATE",
+      "isEditable": true,
+      "label": "FACILITY  STATE",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "FACILITY_ZIP",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "FACILITY ZIP",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.FACILITY_NAME",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "ObjectID",
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_ID",
+    "isEditable": true,
+    "label": "FACILITY ID",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_NAME",
+    "isEditable": true,
+    "label": "FACILITY NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "RECORD_ID",
+    "isEditable": true,
+    "label": "RECORD ID",
+    "visible": false
+   },
+   {
+    "fieldName": "PROGRAM_NAME",
+    "isEditable": true,
+    "label": "PROGRAM NAME",
+    "visible": false
+   },
+   {
+    "fieldName": "PROGRAM_ELEMENT",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "PROGRAM ELEMENT",
+    "visible": false
+   },
+   {
+    "fieldName": "PE_DESCRIPTION",
+    "isEditable": true,
+    "label": "PE DESCRIPTION",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_ADDRESS",
+    "isEditable": true,
+    "label": "FACILITY ADDRESS",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_CITY",
+    "isEditable": true,
+    "label": "FACILITY CITY",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY__STATE",
+    "isEditable": true,
+    "label": "FACILITY  STATE",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_ZIP",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "FACILITY ZIP",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_LATITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "FACILITY LATITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_LONGITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "FACILITY LONGITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_ID",
+    "isEditable": true,
+    "label": "OWNER ID",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_NAME",
+    "isEditable": true,
+    "label": "OWNER NAME",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_ADDRESS",
+    "isEditable": true,
+    "label": "OWNER ADDRESS",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_CITY",
+    "isEditable": true,
+    "label": "OWNER CITY",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_STATE",
+    "isEditable": true,
+    "label": "OWNER STATE",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_ZIP",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "OWNER ZIP",
+    "visible": false
+   },
+   {
+    "fieldName": "Status",
+    "isEditable": true,
+    "label": "Status",
+    "visible": false
+   },
+   {
+    "fieldName": "Score",
+    "isEditable": true,
+    "label": "Score",
+    "visible": false
+   },
+   {
+    "fieldName": "Match_type",
+    "isEditable": true,
+    "label": "Match_type",
+    "visible": false
+   },
+   {
+    "fieldName": "Match_addr",
+    "isEditable": true,
+    "label": "Match Address",
+    "visible": false
+   },
+   {
+    "fieldName": "Addr_type",
+    "isEditable": true,
+    "label": "Address Type",
+    "visible": false
+   },
+   {
+    "fieldName": "StrucType",
+    "isEditable": true,
+    "label": "Structure Type",
+    "visible": false
+   },
+   {
+    "fieldName": "StrucDet",
+    "isEditable": true,
+    "label": "Structure Details",
+    "visible": false
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{FACILITY_NAME}"
+ },
+ "fields": [
+  {
+   "name": "ObjectID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Status",
+   "type": "esriFieldTypeString",
+   "alias": "Status",
+   "sqlType": "sqlTypeOther",
+   "length": 1,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Score",
+   "type": "esriFieldTypeDouble",
+   "alias": "Score",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Match_type",
+   "type": "esriFieldTypeString",
+   "alias": "Match_type",
+   "sqlType": "sqlTypeOther",
+   "length": 2,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Match_addr",
+   "type": "esriFieldTypeString",
+   "alias": "Match Address",
+   "sqlType": "sqlTypeOther",
+   "length": 500,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Addr_type",
+   "type": "esriFieldTypeString",
+   "alias": "Address Type",
+   "sqlType": "sqlTypeOther",
+   "length": 20,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "StrucType",
+   "type": "esriFieldTypeString",
+   "alias": "Structure Type",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "StrucDet",
+   "type": "esriFieldTypeString",
+   "alias": "Structure Details",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FACILITY_ID",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "RECORD_ID",
+   "type": "esriFieldTypeString",
+   "alias": "RECORD ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "PROGRAM_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "PROGRAM NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "PROGRAM_ELEMENT",
+   "type": "esriFieldTypeDouble",
+   "alias": "PROGRAM ELEMENT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "PE_DESCRIPTION",
+   "type": "esriFieldTypeString",
+   "alias": "PE DESCRIPTION",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY_ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY_CITY",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY__STATE",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY  STATE",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY_ZIP",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "FACILITY_LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY LATITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "FACILITY_LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY LONGITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "OWNER_ID",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_CITY",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_STATE",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER STATE",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_ZIP",
+   "type": "esriFieldTypeDouble",
+   "alias": "OWNER ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "title": "Certified Farmers' Markets 2026 (July)",
+ "group": [
+  "Retail Food Outlets",
+  "Certified Farmers' Markets"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LACounty_CertifiedFarmersMarkets_July2026/FeatureServer/11",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriPMS",
+    "url": "68cdd20855451489e6174baa6fdd06fb",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADG0lEQVRIidVXPW/TUBS9L3GBiqVBSNBIDGmQmMFlqQoDAqaUpTSJxcbg/owmP4MObCUfJQO0LIAYEOqSDxYQYggZkGwhoToSiFRE8kXHjSPbzctH64A4UuLEeX7n3fvuu+dEoX8I5b8iLxQKcRE9lcJnZjvuXEnUWdjGg3S6Hjr5VrmsRimqEpPOxCoz934R/XfBEXpSemoKph3ibl7TNOPE5MVyRbeZc0w8H4/P07lYjOLxi87VRadzQIZpUrPZmt+3LJ3EjF4obee1zFruWORb5bIasUWOmVOXFxKUTCZ8hF7Mzp6hJMYsJGjfsujDx09kGOZGsVRJZTOrixORb/WISYjUzeUlQsTjAgvEM4Zh0tt3e2qxVKnJFqAMujmKuPu9Tr+/7tLP9zmavaI7r5nzqm8Mnrt75xa9fPVGLRS3d7Ts2spI8mK5oiPVw4h/7K3T6UsrdOEhU+fzJrVf36O528+PLABZuL54jaq1RgrzZtOrm1JypBvFhT2WpRoRg/js1Q3nO6K2f5nO/SA5gDpoNluohUdEJCePUlRFVaO4ZECqEbEXWMi3x6K/oCBuLC/Rs50XFIxe8Y1i0t3jFCZwGjCnZbV1b/SKt3OhgYRN7ALZrNYaKnjcBtQnR8tE50IDCQIpHfZ90P3g1sRic30e6kV/pNpHRY5JB5HL7g+bV3E/HIqE/OFJoh4GV4x85NMG+r88chJ10RuE6gyd/KDT56Ej5MI2IItQJzSGsGFZ7T4PBclhBKDHkMVpkKPLCRJ1r+Hw7TmMAPQYshjmecd8eBGTz+kovlHczcMIQI8hLGEB8zGRyRFb3ts1TTPgQGAEoMeT6LgMzS8tR9sjQuSyAY+nBAfD+sCBwAhAj0+SfpBWaw0c7t1s5r4vauk5h/OAA4ERgB4nA61y3IhBjCJj7q4PGqPIHsYC4EBgBFCpkMVxzr/HwzkRg1jmZJVhE8H6QINhBKDH2AKoE0TC3Q40JTQQnOOeaXCKy9njAakem9zJwKH4b2IR0GPIomwsUozjhKoOFtexyIOL+Ov/WMiD3v4NTefUyMPEH2FKrXF2B4QuAAAAAElFTkSuQmCC",
+    "contentType": "image/png",
+    "width": 23,
+    "height": 23,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "Market_Name",
+      "isEditable": true,
+      "label": "Market Name",
+      "visible": true
+     },
+     {
+      "fieldName": "Market_Location",
+      "isEditable": true,
+      "label": "Market Location",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.County_Name",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "County_Name",
+    "isEditable": true,
+    "label": "County Name",
+    "visible": false
+   },
+   {
+    "fieldName": "Market_Name",
+    "isEditable": true,
+    "label": "Market Name",
+    "visible": true
+   },
+   {
+    "fieldName": "Market_Location",
+    "isEditable": true,
+    "label": "Market Location",
+    "visible": true
+   },
+   {
+    "fieldName": "Manager",
+    "isEditable": true,
+    "label": "Manager",
+    "visible": false
+   },
+   {
+    "fieldName": "Days",
+    "isEditable": true,
+    "label": "Days",
+    "visible": false
+   },
+   {
+    "fieldName": "Hours",
+    "isEditable": true,
+    "label": "Hours",
+    "visible": false
+   },
+   {
+    "fieldName": "Months",
+    "isEditable": true,
+    "label": "Months",
+    "visible": false
+   },
+   {
+    "fieldName": "Market_Phone",
+    "isEditable": true,
+    "label": "Market Phone",
+    "visible": false
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{Market_Name}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "County_Name",
+   "type": "esriFieldTypeString",
+   "alias": "County Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Market_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Market Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Market_Location",
+   "type": "esriFieldTypeString",
+   "alias": "Market Location",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Manager",
+   "type": "esriFieldTypeString",
+   "alias": "Manager",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Days",
+   "type": "esriFieldTypeString",
+   "alias": "Days",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Hours",
+   "type": "esriFieldTypeString",
+   "alias": "Hours",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Months",
+   "type": "esriFieldTypeString",
+   "alias": "Months",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Market_Phone",
+   "type": "esriFieldTypeString",
+   "alias": "Market Phone",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  }
+ ]
+}

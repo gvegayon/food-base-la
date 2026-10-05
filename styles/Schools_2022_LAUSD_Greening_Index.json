@@ -1,0 +1,900 @@
+{
+ "title": "2022 LAUSD Greening Index",
+ "group": [
+  "Schools"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/c2022_LAUSD_Greening_Index_Republished/FeatureServer/89",
+ "drawingInfo": {
+  "renderer": {
+   "type": "classBreaks",
+   "authoringInfo": {
+    "type": "classedColor",
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        247,
+        252,
+        245,
+        255
+       ],
+       "toColor": [
+        228,
+        245,
+        223,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        228,
+        245,
+        223,
+        255
+       ],
+       "toColor": [
+        197,
+        232,
+        190,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        197,
+        232,
+        190,
+        255
+       ],
+       "toColor": [
+        160,
+        217,
+        154,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        160,
+        217,
+        154,
+        255
+       ],
+       "toColor": [
+        116,
+        196,
+        119,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        116,
+        196,
+        119,
+        255
+       ],
+       "toColor": [
+        65,
+        171,
+        93,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        65,
+        171,
+        93,
+        255
+       ],
+       "toColor": [
+        35,
+        140,
+        70,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        35,
+        140,
+        70,
+        255
+       ],
+       "toColor": [
+        0,
+        110,
+        44,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        0,
+        110,
+        44,
+        255
+       ],
+       "toColor": [
+        0,
+        69,
+        28,
+        255
+       ]
+      }
+     ]
+    },
+    "classificationMethod": "esriClassifyQuantile"
+   },
+   "field": "COMBINED_SCORE_WEIGHTED",
+   "classificationMethod": "esriClassifyQuantile",
+   "minValue": 15.192,
+   "classBreakInfos": [
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       0,
+       68,
+       27,
+       255
+      ],
+      "size": 8,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 1
+      }
+     },
+     "classMaxValue": 63.476,
+     "label": "15.19 - 63.48"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       35,
+       139,
+       69,
+       255
+      ],
+      "size": 8,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 1
+      }
+     },
+     "classMaxValue": 73.668,
+     "label": "63.49 - 73.67"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       116,
+       196,
+       118,
+       255
+      ],
+      "size": 8,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 1
+      }
+     },
+     "classMaxValue": 81.856,
+     "label": "73.68 - 81.86"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       199,
+       233,
+       192,
+       255
+      ],
+      "size": 8,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 1
+      }
+     },
+     "classMaxValue": 90.34,
+     "label": "81.87 - 90.34"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       247,
+       252,
+       245,
+       255
+      ],
+      "size": 8,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 1
+      }
+     },
+     "classMaxValue": 99.91,
+     "label": "90.35 - 99.91"
+    }
+   ],
+   "legendOptions": {
+    "order": "descendingValues"
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "COMBINED_SCORE_WEIGHTED",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "Combined Greening Score",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "COMBINED_RANK",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "School Greening Index Rank",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "minimumFractionDigits": 2,
+       "useGrouping": "never"
+      },
+      "fieldName": "Percent_Green_Space",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "% Green Space",
+      "visible": true
+     },
+     {
+      "fieldName": "PARK_NEED",
+      "isEditable": true,
+      "label": "Park Need",
+      "visible": true
+     },
+     {
+      "fieldName": "FULLNAME",
+      "isEditable": true,
+      "label": "School Name",
+      "visible": true
+     },
+     {
+      "fieldName": "MPD_DESC",
+      "isEditable": true,
+      "label": "School Type",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.FULLNAME",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "FULLNAME",
+    "isEditable": true,
+    "label": "School Name",
+    "visible": true
+   },
+   {
+    "fieldName": "ADDRESS",
+    "isEditable": true,
+    "label": "ADDRESS",
+    "visible": false
+   },
+   {
+    "fieldName": "CITY",
+    "isEditable": true,
+    "label": "CITY",
+    "visible": false
+   },
+   {
+    "fieldName": "ZIP",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ZIP",
+    "visible": false
+   },
+   {
+    "fieldName": "MPD_DESC",
+    "isEditable": true,
+    "label": "School Type",
+    "visible": true
+   },
+   {
+    "fieldName": "SCHOOL_ID",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "SCHOOL_ID",
+    "visible": false
+   },
+   {
+    "fieldName": "SITE_ID",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "SITE_ID",
+    "visible": false
+   },
+   {
+    "fieldName": "LATITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "LATITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "LONGITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "LONGITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "BD",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "BD",
+    "visible": false
+   },
+   {
+    "fieldName": "LD",
+    "isEditable": true,
+    "label": "LD",
+    "visible": false
+   },
+   {
+    "fieldName": "SITE_NAME",
+    "isEditable": true,
+    "label": "SITE_NAME",
+    "visible": false
+   },
+   {
+    "fieldName": "FRAGILE_SCHOOL",
+    "isEditable": true,
+    "label": "FRAGILE_SCHOOL",
+    "visible": false
+   },
+   {
+    "fieldName": "PARK_NEED",
+    "isEditable": true,
+    "label": "Park Need",
+    "visible": true
+   },
+   {
+    "fieldName": "PARK",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "PARK",
+    "visible": false
+   },
+   {
+    "fieldName": "PARK_NEED_SCORE_RESCALED",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "PARK_NEED_SCORE_RESCALED",
+    "visible": false
+   },
+   {
+    "fieldName": "PARK_NEED_WEIGHTED",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "PARK_NEED_WEIGHTED",
+    "visible": false
+   },
+   {
+    "fieldName": "GREEN_SPACE_SQFT",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "GREEN_SPACE_SQFT",
+    "visible": false
+   },
+   {
+    "fieldName": "HARDSCAPE_SQFT",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "HARDSCAPE_SQFT",
+    "visible": false
+   },
+   {
+    "fieldName": "TOTAL",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "TOTAL",
+    "visible": false
+   },
+   {
+    "fieldName": "GREEN_SCORE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "GREEN_SCORE",
+    "visible": false
+   },
+   {
+    "fieldName": "GREEN_SCORE_RESCALED",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "GREEN_SCORE_RESCALED",
+    "visible": false
+   },
+   {
+    "fieldName": "GREEN_SCORE_WEIGHTED",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "GREEN_SCORE_WEIGHTED",
+    "visible": false
+   },
+   {
+    "fieldName": "COMBINED_SCORE_WEIGHTED",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Combined Greening Score",
+    "visible": true
+   },
+   {
+    "fieldName": "COMBINED_RANK",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "School Greening Index Rank",
+    "visible": true
+   },
+   {
+    "fieldName": "Percent_Green_Space",
+    "format": {
+     "digitSeparator": false,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "% Green Space",
+    "visible": true
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{expression/displayExp}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FULLNAME",
+   "type": "esriFieldTypeString",
+   "alias": "FULLNAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CITY",
+   "type": "esriFieldTypeString",
+   "alias": "CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ZIP",
+   "type": "esriFieldTypeDouble",
+   "alias": "ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "MPD_DESC",
+   "type": "esriFieldTypeString",
+   "alias": "MPD_DESC",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SCHOOL_ID",
+   "type": "esriFieldTypeDouble",
+   "alias": "SCHOOL_ID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SITE_ID",
+   "type": "esriFieldTypeDouble",
+   "alias": "SITE_ID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LATITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LONGITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "BD",
+   "type": "esriFieldTypeDouble",
+   "alias": "BD",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LD",
+   "type": "esriFieldTypeString",
+   "alias": "LD",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SITE_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "SITE_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FRAGILE_SCHOOL",
+   "type": "esriFieldTypeString",
+   "alias": "FRAGILE_SCHOOL",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PARK_NEED",
+   "type": "esriFieldTypeString",
+   "alias": "PARK_NEED",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PARK",
+   "type": "esriFieldTypeDouble",
+   "alias": "PARK",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PARK_NEED_SCORE_RESCALED",
+   "type": "esriFieldTypeDouble",
+   "alias": "PARK_NEED_SCORE_RESCALED",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PARK_NEED_WEIGHTED",
+   "type": "esriFieldTypeDouble",
+   "alias": "PARK_NEED_WEIGHTED",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GREEN_SPACE_SQFT",
+   "type": "esriFieldTypeDouble",
+   "alias": "GREEN_SPACE_SQFT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "HARDSCAPE_SQFT",
+   "type": "esriFieldTypeDouble",
+   "alias": "HARDSCAPE_SQFT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TOTAL",
+   "type": "esriFieldTypeDouble",
+   "alias": "TOTAL",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GREEN_SCORE",
+   "type": "esriFieldTypeDouble",
+   "alias": "GREEN_SCORE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GREEN_SCORE_RESCALED",
+   "type": "esriFieldTypeDouble",
+   "alias": "GREEN_SCORE_RESCALED",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GREEN_SCORE_WEIGHTED",
+   "type": "esriFieldTypeDouble",
+   "alias": "GREEN_SCORE_WEIGHTED",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "COMBINED_SCORE_WEIGHTED",
+   "type": "esriFieldTypeDouble",
+   "alias": "Combined Greening Score",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "COMBINED_RANK",
+   "type": "esriFieldTypeDouble",
+   "alias": "COMBINED_RANK",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Percent_Green_Space",
+   "type": "esriFieldTypeDouble",
+   "alias": "% Green Space",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

@@ -1,0 +1,553 @@
+{
+ "title": "Low Income 2021",
+ "group": [
+  "Resident Demographics",
+  "Low Income"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/Poverty_2021_02102025/FeatureServer/16",
+ "drawingInfo": {
+  "renderer": {
+   "type": "classBreaks",
+   "authoringInfo": {
+    "type": "classedColor",
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        247,
+        252,
+        252,
+        255
+       ],
+       "toColor": [
+        225,
+        237,
+        245,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        225,
+        237,
+        245,
+        255
+       ],
+       "toColor": [
+        190,
+        211,
+        230,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        190,
+        211,
+        230,
+        255
+       ],
+       "toColor": [
+        156,
+        186,
+        217,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        156,
+        186,
+        217,
+        255
+       ],
+       "toColor": [
+        141,
+        151,
+        199,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        141,
+        151,
+        199,
+        255
+       ],
+       "toColor": [
+        137,
+        106,
+        176,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        137,
+        106,
+        176,
+        255
+       ],
+       "toColor": [
+        136,
+        65,
+        158,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        136,
+        65,
+        158,
+        255
+       ],
+       "toColor": [
+        130,
+        16,
+        124,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        130,
+        16,
+        124,
+        255
+       ],
+       "toColor": [
+        77,
+        0,
+        74,
+        255
+       ]
+      }
+     ]
+    },
+    "classificationMethod": "esriClassifyQuantile"
+   },
+   "field": "Percent_Pov",
+   "classificationMethod": "esriClassifyQuantile",
+   "defaultSymbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     130,
+     130,
+     130,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      110,
+      110,
+      110,
+      255
+     ],
+     "width": 0.25
+    }
+   },
+   "defaultLabel": "No Data",
+   "minValue": 0,
+   "classBreakInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       247,
+       252,
+       253,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 27.077240667469464,
+     "label": "0.000000 - 27.077241"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       191,
+       211,
+       230,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 40.84130019120459,
+     "label": "27.077242 - 40.841300"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       140,
+       150,
+       198,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 55.68627450980392,
+     "label": "40.841301 - 55.686275"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       136,
+       65,
+       157,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 69.18525261720528,
+     "label": "55.686276 - 69.185253"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       77,
+       0,
+       75,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "classMaxValue": 100,
+     "label": "69.185254 - 100.000000"
+    }
+   ],
+   "legendOptions": {
+    "order": "ascendingValues"
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "Percent_Pov",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "% of Population Below 300% Federal Poverty Level",
+      "visible": true
+     },
+     {
+      "fieldName": "NAME",
+      "isEditable": true,
+      "label": "Geographic Area Name",
+      "visible": true
+     },
+     {
+      "fieldName": "tract",
+      "isEditable": true,
+      "label": "Census Tract Geographic ID",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.tract",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "tract",
+    "isEditable": true,
+    "label": "Census Tract Geographic ID",
+    "visible": true
+   },
+   {
+    "fieldName": "Under300Pov",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Total population of all individuals below 300 percent of poverty",
+    "visible": false
+   },
+   {
+    "fieldName": "TotalPovPop",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Total Population",
+    "visible": false
+   },
+   {
+    "fieldName": "Percent_Pov",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "% of Population Below 300% Federal Poverty Level",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Data_Value",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Data_Value",
+    "visible": false
+   },
+   {
+    "fieldName": "GEOID_20",
+    "isEditable": true,
+    "label": "GEOID_20",
+    "visible": false
+   },
+   {
+    "fieldName": "NAME",
+    "isEditable": true,
+    "label": "Geographic Area Name",
+    "visible": true
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{NAME}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "tract",
+   "type": "esriFieldTypeString",
+   "alias": "tract",
+   "sqlType": "sqlTypeOther",
+   "length": 11,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Under300Pov",
+   "type": "esriFieldTypeDouble",
+   "alias": "Under300Pov",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TotalPovPop",
+   "type": "esriFieldTypeDouble",
+   "alias": "TotalPovPop",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Percent_Pov",
+   "type": "esriFieldTypeDouble",
+   "alias": "% of Population Below 300% Federal Poverty Level",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Data_Value",
+   "type": "esriFieldTypeDouble",
+   "alias": "Data_Value",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOID_20",
+   "type": "esriFieldTypeString",
+   "alias": "GEOID_20",
+   "sqlType": "sqlTypeOther",
+   "length": 512,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 512,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

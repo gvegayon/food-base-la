@@ -1,0 +1,455 @@
+{
+ "title": "Retail Food Markets 2022 (October)",
+ "group": [
+  "Retail Food Outlets",
+  "Retail Food Markets"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/FoodMarketRetail_LACounty_Inventory_and_Inspections_1022/FeatureServer/0",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSMS",
+    "style": "esriSMSCircle",
+    "color": [
+     253,
+     141,
+     60,
+     255
+    ],
+    "size": 3,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "outline": {
+     "color": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "width": 0.5
+    }
+   },
+   "label": "Food Markets Retail",
+   "description": "Los Angeles County Restaurant and Market Inventory"
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "FACILITY_NAME",
+      "isEditable": true,
+      "label": "FACILITY_NAME",
+      "visible": true
+     },
+     {
+      "fieldName": "PROGRAM_NAME",
+      "isEditable": true,
+      "label": "PROGRAM_NAME",
+      "visible": true
+     },
+     {
+      "fieldName": "PE_DESCRIPTION",
+      "isEditable": true,
+      "label": "SQUARE_FOOTAGE",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY_ADDRESS",
+      "isEditable": true,
+      "label": "FACILITY_ADDRESS",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY_CITY",
+      "isEditable": true,
+      "label": "FACILITY_CITY",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY_STATE",
+      "isEditable": true,
+      "label": "FACILITY_STATE",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "useGrouping": "never"
+      },
+      "fieldName": "FACILITY_ZIP",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "FACILITY_ZIP",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "FAID",
+    "isEditable": true,
+    "label": "FAID",
+    "visible": false
+   },
+   {
+    "fieldName": "Lat",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Lat",
+    "visible": false
+   },
+   {
+    "fieldName": "Long",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Long",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_ID",
+    "isEditable": true,
+    "label": "FACILITY_ID",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_NAME",
+    "isEditable": true,
+    "label": "FACILITY_NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "RECORD_ID",
+    "isEditable": true,
+    "label": "RECORD_ID",
+    "visible": false
+   },
+   {
+    "fieldName": "PROGRAM_NAME",
+    "isEditable": true,
+    "label": "PROGRAM_NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "PROGRAM_ELEMENT__PE_",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "PROGRAM_ELEMENT__PE_",
+    "visible": false
+   },
+   {
+    "fieldName": "PE_DESCRIPTION",
+    "isEditable": true,
+    "label": "SQUARE_FOOTAGE",
+    "visible": true
+   },
+   {
+    "fieldName": "INSPECTION_EVALUATION",
+    "isEditable": true,
+    "label": "INSPECTION_EVALUATION",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_ADDRESS",
+    "isEditable": true,
+    "label": "FACILITY_ADDRESS",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_CITY",
+    "isEditable": true,
+    "label": "FACILITY_CITY",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_STATE",
+    "isEditable": true,
+    "label": "FACILITY_STATE",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_ZIP",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "FACILITY_ZIP",
+    "visible": true
+   },
+   {
+    "fieldName": "SCORE",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "SCORE",
+    "visible": false
+   },
+   {
+    "fieldName": "Restaurant",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Restaurant",
+    "visible": false
+   },
+   {
+    "fieldName": "FoodMKT",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Food Market Retail",
+    "visible": false
+   },
+   {
+    "fieldName": "Type",
+    "isEditable": true,
+    "label": "Type",
+    "visible": false
+   }
+  ],
+  "title": "{FACILITY_NAME}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FAID",
+   "type": "esriFieldTypeString",
+   "alias": "FAID",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Lat",
+   "type": "esriFieldTypeDouble",
+   "alias": "Lat",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Long",
+   "type": "esriFieldTypeDouble",
+   "alias": "Long",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FACILITY_ID",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY_ID",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FACILITY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "RECORD_ID",
+   "type": "esriFieldTypeString",
+   "alias": "RECORD_ID",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PROGRAM_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "PROGRAM_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PROGRAM_ELEMENT__PE_",
+   "type": "esriFieldTypeInteger",
+   "alias": "PROGRAM_ELEMENT__PE_",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PE_DESCRIPTION",
+   "type": "esriFieldTypeString",
+   "alias": "PE_DESCRIPTION",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FACILITY_ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY_ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FACILITY_CITY",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY_CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FACILITY_STATE",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY_STATE",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FACILITY_ZIP",
+   "type": "esriFieldTypeInteger",
+   "alias": "FACILITY_ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SCORE",
+   "type": "esriFieldTypeInteger",
+   "alias": "SCORE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Restaurant",
+   "type": "esriFieldTypeInteger",
+   "alias": "Restaurant",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FoodMKT",
+   "type": "esriFieldTypeInteger",
+   "alias": "Food Market Retail",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Type",
+   "type": "esriFieldTypeString",
+   "alias": "Type",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "INSPECTION_EVALUATION",
+   "type": "esriFieldTypeString",
+   "alias": "INSPECTION_EVALUATION",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

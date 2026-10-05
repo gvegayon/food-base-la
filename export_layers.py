@@ -1,7 +1,7 @@
 """Download every layer in the Food Base LA web map as GeoJSON, plus its styling.
 
 Usage: python3 export_layers.py [--only "substring of title"] [--workers 8]
-Outputs: data/<group>__<title>.geojson and styles/<same>.json (renderer + popup from the web map)
+Outputs: raw/<group>__<title>.geojson and styles/<same>.json (renderer + popup from the web map)
 Needs only the Python standard library.
 """
 import json, os, re, sys, time, urllib.parse, urllib.request
@@ -54,13 +54,13 @@ def dump(obj, out, **kw):
         json.dump(obj, f, **kw)
     os.replace(out + ".tmp", out)
 
-os.makedirs(os.path.join(HERE, "data"), exist_ok=True)
+os.makedirs(os.path.join(HERE, "raw"), exist_ok=True)
 os.makedirs(os.path.join(HERE, "styles"), exist_ok=True)
 def run(job):
     path, l = job
     title = l.get("title", "")
     name = slug("__".join(path + [title]))
-    out = os.path.join(HERE, "data", name + ".geojson")
+    out = os.path.join(HERE, "raw", name + ".geojson")
     style_out = os.path.join(HERE, "styles", name + ".json")
     if os.path.exists(out) and os.path.exists(style_out):
         return f"skip (exists) {name}"

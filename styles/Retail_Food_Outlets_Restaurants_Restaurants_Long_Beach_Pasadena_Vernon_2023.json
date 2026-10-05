@@ -1,0 +1,322 @@
+{
+ "title": "Restaurants: Long Beach, Pasadena, Vernon 2023",
+ "group": [
+  "Retail Food Outlets",
+  "Restaurants"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/Restaurants_LB_PAS_V_2023/FeatureServer/3",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSMS",
+    "style": "esriSMSCircle",
+    "color": [
+     163,
+     75,
+     127,
+     255
+    ],
+    "size": 4,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "outline": {
+     "color": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "width": 0.7
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "USER_Company_Name",
+      "isEditable": true,
+      "label": "Name",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_Street_Address",
+      "isEditable": true,
+      "label": "Street Address",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_City",
+      "isEditable": true,
+      "label": "City",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_State_Abbreviation",
+      "isEditable": true,
+      "label": "State",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_Zip_Code",
+      "isEditable": true,
+      "label": "ZIP Code",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "Match_addr",
+    "isEditable": true,
+    "label": "Match Address",
+    "visible": false
+   },
+   {
+    "fieldName": "Addr_type",
+    "isEditable": true,
+    "label": "Addr_type",
+    "visible": false
+   },
+   {
+    "fieldName": "GEOCODE_LONGITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "X",
+    "visible": false
+   },
+   {
+    "fieldName": "GEOCODE_LATITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Y",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_Company_Name",
+    "isEditable": true,
+    "label": "Name",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Street_Address",
+    "isEditable": true,
+    "label": "Street Address",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_City",
+    "isEditable": true,
+    "label": "City",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_State_Abbreviation",
+    "isEditable": true,
+    "label": "State",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_Zip_Code",
+    "isEditable": true,
+    "label": "ZIP Code",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_PE_DESCRIPTION",
+    "isEditable": true,
+    "label": "PE DESCRIPTION",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_Latitude",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Latitude",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_Longitude",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Longitude",
+    "visible": false
+   }
+  ],
+  "title": "{USER_Company_Name}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Match_addr",
+   "type": "esriFieldTypeString",
+   "alias": "Match_addr",
+   "sqlType": "sqlTypeOther",
+   "length": 500,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Addr_type",
+   "type": "esriFieldTypeString",
+   "alias": "Addr_type",
+   "sqlType": "sqlTypeOther",
+   "length": 20,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOCODE_LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "X",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOCODE_LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "Y",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Company_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Company Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Street_Address",
+   "type": "esriFieldTypeString",
+   "alias": "Street Address",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_City",
+   "type": "esriFieldTypeString",
+   "alias": "City",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_State_Abbreviation",
+   "type": "esriFieldTypeString",
+   "alias": "State Abbreviation",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Zip_Code",
+   "type": "esriFieldTypeString",
+   "alias": "Zip Code",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_PE_DESCRIPTION",
+   "type": "esriFieldTypeString",
+   "alias": "PE_DESCRIPTION",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_Latitude",
+   "type": "esriFieldTypeDouble",
+   "alias": "Latitude",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "USER_Longitude",
+   "type": "esriFieldTypeDouble",
+   "alias": "Longitude",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  }
+ ]
+}

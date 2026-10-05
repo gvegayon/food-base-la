@@ -1,0 +1,800 @@
+{
+ "title": "Retail Food Markets 2026 (March)",
+ "group": [
+  "Retail Food Outlets",
+  "Retail Food Markets"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/MarketsMar2026_Final_FoodMarketsGeocoded/FeatureServer/0",
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "USER_SQUARE_FOOTAGE",
+   "uniqueValueGroups": [
+    {
+     "heading": "SQUARE FOOTAGE",
+     "classes": [
+      {
+       "label": "Less than 2,000 SQ FT",
+       "description": "Less than 2,000 SQ FT",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         2,
+         5,
+         204,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Less than 2,000 SQ FT"
+        ]
+       ]
+      },
+      {
+       "label": "Greater than or equal to 2,000 SQ FT",
+       "description": "Greater than or equal to 2,000 SQ FT",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         202,
+         122,
+         245,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Greater than or equal to 2,000 SQ FT"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       2,
+       5,
+       204,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Less than 2,000 SQ FT",
+     "label": "Less than 2,000 SQ FT"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       202,
+       122,
+       245,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Greater than or equal to 2,000 SQ FT",
+     "label": "Greater than or equal to 2,000 SQ FT"
+    }
+   ],
+   "fieldDelimiter": ";",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        220,
+        192,
+        255
+       ],
+       "toColor": [
+        252,
+        220,
+        192,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        182,
+        182,
+        252,
+        255
+       ],
+       "toColor": [
+        182,
+        182,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        180,
+        252,
+        179,
+        255
+       ],
+       "toColor": [
+        180,
+        252,
+        179,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        194,
+        251,
+        252,
+        255
+       ],
+       "toColor": [
+        194,
+        251,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        179,
+        213,
+        255
+       ],
+       "toColor": [
+        252,
+        179,
+        213,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        231,
+        252,
+        215,
+        255
+       ],
+       "toColor": [
+        231,
+        252,
+        215,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        222,
+        215,
+        252,
+        255
+       ],
+       "toColor": [
+        222,
+        215,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        240,
+        184,
+        252,
+        255
+       ],
+       "toColor": [
+        240,
+        184,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        249,
+        182,
+        255
+       ],
+       "toColor": [
+        252,
+        249,
+        182,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        188,
+        187,
+        255
+       ],
+       "toColor": [
+        252,
+        188,
+        187,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        182,
+        252,
+        225,
+        255
+       ],
+       "toColor": [
+        182,
+        252,
+        225,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        222,
+        252,
+        255
+       ],
+       "toColor": [
+        179,
+        222,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        215,
+        229,
+        255
+       ],
+       "toColor": [
+        252,
+        215,
+        229,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "USER_FACILITY_NAME",
+      "isEditable": true,
+      "label": "FACILITY NAME",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_PROGRAM_NAME",
+      "isEditable": true,
+      "label": "PROGRAM NAME",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_PE_DESCRIPTION",
+      "isEditable": true,
+      "label": "PE DESCRIPTION",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_FACILITY_ADDRESS",
+      "isEditable": true,
+      "label": "FACILITY ADDRESS",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_FACILITY_CITY",
+      "isEditable": true,
+      "label": "FACILITY CITY",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_FACILITY__STATE",
+      "isEditable": true,
+      "label": "FACILITY  STATE",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "useGrouping": "never"
+      },
+      "fieldName": "USER_FACILITY_ZIP",
+      "format": {
+       "digitSeparator": false,
+       "places": 2
+      },
+      "isEditable": true,
+      "label": "FACILITY ZIP",
+      "visible": true
+     },
+     {
+      "fieldName": "USER_SQUARE_FOOTAGE",
+      "isEditable": true,
+      "label": "SQUARE FOOTAGE",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.FACILITY_NAME",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_FACILITY_ID",
+    "isEditable": true,
+    "label": "FACILITY ID",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_FACILITY_NAME",
+    "isEditable": true,
+    "label": "FACILITY NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_RECORD_ID",
+    "isEditable": true,
+    "label": "RECORD ID",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_PROGRAM_NAME",
+    "isEditable": true,
+    "label": "PROGRAM NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_PROGRAM_ELEMENT",
+    "format": {
+     "digitSeparator": true,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "PROGRAM ELEMENT",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_PE_DESCRIPTION",
+    "isEditable": true,
+    "label": "PE DESCRIPTION",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_SQUARE_FOOTAGE",
+    "isEditable": true,
+    "label": "SQUARE FOOTAGE",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_FACILITY_ADDRESS",
+    "isEditable": true,
+    "label": "FACILITY ADDRESS",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_FACILITY_CITY",
+    "isEditable": true,
+    "label": "FACILITY CITY",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_FACILITY__STATE",
+    "isEditable": true,
+    "label": "FACILITY  STATE",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_FACILITY_ZIP",
+    "format": {
+     "digitSeparator": false,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "FACILITY ZIP",
+    "visible": true
+   },
+   {
+    "fieldName": "USER_FACILITY_LATITUDE",
+    "format": {
+     "digitSeparator": true,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "FACILITY LATITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_FACILITY_LONGITUDE",
+    "format": {
+     "digitSeparator": true,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "FACILITY LONGITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_OWNER_ID",
+    "isEditable": true,
+    "label": "OWNER ID",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_OWNER_NAME",
+    "isEditable": true,
+    "label": "OWNER NAME",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_OWNER_ADDRESS",
+    "isEditable": true,
+    "label": "OWNER ADDRESS",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_OWNER_CITY",
+    "isEditable": true,
+    "label": "OWNER CITY",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_OWNER_STATE",
+    "isEditable": true,
+    "label": "OWNER STATE",
+    "visible": false
+   },
+   {
+    "fieldName": "USER_OWNER_ZIP",
+    "format": {
+     "digitSeparator": true,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "OWNER ZIP",
+    "visible": false
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{USER_FACILITY_NAME}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "USER_FACILITY_ID",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_FACILITY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_RECORD_ID",
+   "type": "esriFieldTypeString",
+   "alias": "RECORD ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_PROGRAM_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "PROGRAM NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_PROGRAM_ELEMENT",
+   "type": "esriFieldTypeDouble",
+   "alias": "PROGRAM ELEMENT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "USER_PE_DESCRIPTION",
+   "type": "esriFieldTypeString",
+   "alias": "PE DESCRIPTION",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_SQUARE_FOOTAGE",
+   "type": "esriFieldTypeString",
+   "alias": "SQUARE FOOTAGE",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_FACILITY_ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_FACILITY_CITY",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_FACILITY__STATE",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY  STATE",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_FACILITY_ZIP",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "USER_FACILITY_LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY LATITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "USER_FACILITY_LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY LONGITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "USER_OWNER_ID",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_OWNER_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_OWNER_ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_OWNER_CITY",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_OWNER_STATE",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER STATE",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "USER_OWNER_ZIP",
+   "type": "esriFieldTypeDouble",
+   "alias": "OWNER ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  }
+ ]
+}

@@ -1,0 +1,940 @@
+{
+ "title": "CalFresh Retailers 2025 (July)",
+ "group": [
+  "Food Assistance and Benefits",
+  "CalFresh Retailers"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LACounty_CalFresh_Retailers_July2025/FeatureServer/1",
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "Store_Type",
+   "uniqueValueGroups": [
+    {
+     "heading": "Store_Type",
+     "classes": [
+      {
+       "label": "Supermarket",
+       "description": "Supermarket",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         229,
+         196,
+         148,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Supermarket"
+        ]
+       ]
+      },
+      {
+       "label": "Super Store",
+       "description": "Super Store",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         255,
+         217,
+         47,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Super Store"
+        ]
+       ]
+      },
+      {
+       "label": "Specialty Store",
+       "description": "Specialty Store",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         166,
+         216,
+         84,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Specialty Store"
+        ]
+       ]
+      },
+      {
+       "label": "Farmers and Markets",
+       "description": "Farmers and Markets",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         252,
+         141,
+         98,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Farmers and Markets"
+        ]
+       ]
+      },
+      {
+       "label": "Convenience Store",
+       "description": "Convenience Store",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         102,
+         194,
+         165,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Convenience Store"
+        ]
+       ]
+      },
+      {
+       "label": "Grocery Store",
+       "description": "Grocery Store",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         141,
+         160,
+         203,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Grocery Store"
+        ]
+       ]
+      },
+      {
+       "label": "Other",
+       "description": "Other",
+       "symbol": {
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "color": [
+         231,
+         138,
+         195,
+         255
+        ],
+        "size": 4,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "outline": {
+         "color": [
+          0,
+          0,
+          0,
+          255
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "Other"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       229,
+       196,
+       148,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Supermarket",
+     "label": "Supermarket"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       255,
+       217,
+       47,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Super Store",
+     "label": "Super Store"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       166,
+       216,
+       84,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Specialty Store",
+     "label": "Specialty Store"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       252,
+       141,
+       98,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Farmers and Markets",
+     "label": "Farmers and Markets"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       102,
+       194,
+       165,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Convenience Store",
+     "label": "Convenience Store"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       141,
+       160,
+       203,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Grocery Store",
+     "label": "Grocery Store"
+    },
+    {
+     "symbol": {
+      "type": "esriSMS",
+      "style": "esriSMSCircle",
+      "color": [
+       231,
+       138,
+       195,
+       255
+      ],
+      "size": 4,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "outline": {
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "Other",
+     "label": "Other"
+    }
+   ],
+   "fieldDelimiter": ",",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        103,
+        194,
+        165,
+        255
+       ],
+       "toColor": [
+        103,
+        194,
+        165,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        142,
+        98,
+        255
+       ],
+       "toColor": [
+        252,
+        142,
+        98,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        141,
+        160,
+        204,
+        255
+       ],
+       "toColor": [
+        141,
+        160,
+        204,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        232,
+        139,
+        196,
+        255
+       ],
+       "toColor": [
+        232,
+        139,
+        196,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        166,
+        217,
+        85,
+        255
+       ],
+       "toColor": [
+        166,
+        217,
+        85,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        255,
+        217,
+        46,
+        255
+       ],
+       "toColor": [
+        255,
+        217,
+        46,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        230,
+        197,
+        149,
+        255
+       ],
+       "toColor": [
+        230,
+        197,
+        149,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "Store_Type",
+      "isEditable": true,
+      "label": "Store_Type",
+      "visible": true
+     },
+     {
+      "fieldName": "Store_Name",
+      "isEditable": true,
+      "label": "Store_Name",
+      "visible": true
+     },
+     {
+      "fieldName": "Store_Street_Address",
+      "isEditable": true,
+      "label": "Store_Street_Address",
+      "visible": true
+     },
+     {
+      "fieldName": "Additonal_Address",
+      "isEditable": true,
+      "label": "Additonal_Address",
+      "visible": true
+     },
+     {
+      "fieldName": "City",
+      "isEditable": true,
+      "label": "City",
+      "visible": true
+     },
+     {
+      "fieldName": "State",
+      "isEditable": true,
+      "label": "State",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "Zip_Code",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Zip_Code",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "Zip4",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Zip4",
+      "visible": true
+     },
+     {
+      "fieldName": "County",
+      "isEditable": true,
+      "label": "County",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "X",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "X",
+    "visible": false
+   },
+   {
+    "fieldName": "Y",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Y",
+    "visible": false
+   },
+   {
+    "fieldName": "Record_ID",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Record_ID",
+    "visible": false
+   },
+   {
+    "fieldName": "Store_Name",
+    "isEditable": true,
+    "label": "Store_Name",
+    "visible": true
+   },
+   {
+    "fieldName": "Store_Street_Address",
+    "isEditable": true,
+    "label": "Store_Street_Address",
+    "visible": true
+   },
+   {
+    "fieldName": "Additonal_Address",
+    "isEditable": true,
+    "label": "Additonal_Address",
+    "visible": true
+   },
+   {
+    "fieldName": "City",
+    "isEditable": true,
+    "label": "City",
+    "visible": true
+   },
+   {
+    "fieldName": "State",
+    "isEditable": true,
+    "label": "State",
+    "visible": true
+   },
+   {
+    "fieldName": "Zip_Code",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Zip_Code",
+    "visible": true
+   },
+   {
+    "fieldName": "Zip4",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Zip4",
+    "visible": true
+   },
+   {
+    "fieldName": "County",
+    "isEditable": true,
+    "label": "County",
+    "visible": true
+   },
+   {
+    "fieldName": "Store_Type",
+    "isEditable": true,
+    "label": "Store_Type",
+    "visible": true
+   },
+   {
+    "fieldName": "Latitude",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Latitude",
+    "visible": false
+   },
+   {
+    "fieldName": "Longitude",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Longitude",
+    "visible": false
+   },
+   {
+    "fieldName": "Incentive_Program",
+    "isEditable": true,
+    "label": "Incentive_Program",
+    "visible": false
+   }
+  ],
+  "title": "{Store_Name}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "X",
+   "type": "esriFieldTypeDouble",
+   "alias": "X",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Y",
+   "type": "esriFieldTypeDouble",
+   "alias": "Y",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Record_ID",
+   "type": "esriFieldTypeDouble",
+   "alias": "Record_ID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Store_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Store_Name",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Store_Street_Address",
+   "type": "esriFieldTypeString",
+   "alias": "Store_Street_Address",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Additonal_Address",
+   "type": "esriFieldTypeString",
+   "alias": "Additonal_Address",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "City",
+   "type": "esriFieldTypeString",
+   "alias": "City",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "State",
+   "type": "esriFieldTypeString",
+   "alias": "State",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Zip_Code",
+   "type": "esriFieldTypeDouble",
+   "alias": "Zip_Code",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Zip4",
+   "type": "esriFieldTypeDouble",
+   "alias": "Zip4",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "County",
+   "type": "esriFieldTypeString",
+   "alias": "County",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Store_Type",
+   "type": "esriFieldTypeString",
+   "alias": "Store_Type",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Latitude",
+   "type": "esriFieldTypeDouble",
+   "alias": "Latitude",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Longitude",
+   "type": "esriFieldTypeDouble",
+   "alias": "Longitude",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Incentive_Program",
+   "type": "esriFieldTypeString",
+   "alias": "Incentive_Program",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

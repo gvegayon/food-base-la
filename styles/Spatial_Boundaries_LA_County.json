@@ -1,0 +1,337 @@
+{
+ "title": "LA County",
+ "group": [
+  "Spatial Boundaries"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/L_A__County_Food_Data_WFL1/FeatureServer/1",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "CIMSymbolReference",
+    "symbol": {
+     "type": "CIMPolygonSymbol",
+     "symbolLayers": [
+      {
+       "type": "CIMSolidStroke",
+       "effects": [
+        {
+         "type": "CIMGeometricEffectDashes",
+         "dashTemplate": [
+          6,
+          4
+         ],
+         "lineDashEnding": "NoConstraint",
+         "controlPointEnding": "NoConstraint"
+        }
+       ],
+       "enable": true,
+       "colorLocked": true,
+       "capStyle": "Butt",
+       "joinStyle": "Round",
+       "lineStyle3D": "Strip",
+       "miterLimit": 10,
+       "width": 2,
+       "height3D": 1,
+       "anchor3D": "Center",
+       "color": [
+        0,
+        0,
+        0,
+        255
+       ]
+      },
+      {
+       "type": "CIMSolidFill",
+       "enable": true,
+       "color": [
+        130,
+        130,
+        130,
+        0
+       ]
+      }
+     ],
+     "angleAlignment": "Map"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "FID",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": false,
+      "label": "FID",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "OBJECTID",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "OBJECTID",
+      "visible": true
+     },
+     {
+      "fieldName": "TYPE",
+      "isEditable": true,
+      "label": "TYPE",
+      "visible": true
+     },
+     {
+      "fieldName": "NAME",
+      "isEditable": true,
+      "label": "NAME",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "ShapeSTAre",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "ShapeSTAre",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "ShapeSTLen",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "ShapeSTLen",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "Shape__Area",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": false,
+      "label": "Shape__Area",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "Shape__Length",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": false,
+      "label": "Shape__Length",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "FID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "FID",
+    "visible": true
+   },
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "OBJECTID",
+    "visible": true
+   },
+   {
+    "fieldName": "TYPE",
+    "isEditable": true,
+    "label": "TYPE",
+    "visible": true
+   },
+   {
+    "fieldName": "NAME",
+    "isEditable": true,
+    "label": "NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "ShapeSTAre",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ShapeSTAre",
+    "visible": true
+   },
+   {
+    "fieldName": "ShapeSTLen",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ShapeSTLen",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Area",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Length",
+    "visible": true
+   }
+  ],
+  "title": "{NAME}"
+ },
+ "fields": [
+  {
+   "name": "FID",
+   "type": "esriFieldTypeOID",
+   "alias": "FID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "sqlType": "sqlTypeOther",
+   "length": 12,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 22,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShapeSTAre",
+   "type": "esriFieldTypeDouble",
+   "alias": "ShapeSTAre",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShapeSTLen",
+   "type": "esriFieldTypeDouble",
+   "alias": "ShapeSTLen",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

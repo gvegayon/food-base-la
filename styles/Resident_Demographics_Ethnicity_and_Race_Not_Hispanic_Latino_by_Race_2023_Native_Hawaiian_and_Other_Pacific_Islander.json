@@ -1,0 +1,537 @@
+{
+ "title": "Native Hawaiian and Other Pacific Islander",
+ "group": [
+  "Resident Demographics",
+  "Ethnicity and Race",
+  "Not Hispanic/Latino by Race 2023"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/NH_Native_Hawaiian_and_Other_Pacific_Islander_Alone_2023/FeatureServer/74",
+ "drawingInfo": {
+  "renderer": {
+   "type": "classBreaks",
+   "field": "F__Not_Hispanic_or_Latino___Nat",
+   "defaultSymbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     130,
+     130,
+     130,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      110,
+      110,
+      110,
+      255
+     ],
+     "width": 0.25
+    }
+   },
+   "defaultLabel": "No Data",
+   "minValue": 0,
+   "classBreakInfos": [
+    {
+     "classMaxValue": 0,
+     "label": "0%",
+     "description": "",
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       247,
+       252,
+       253,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     }
+    },
+    {
+     "classMaxValue": 0.3,
+     "label": "0.01% - 0.3%",
+     "description": "",
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       191,
+       211,
+       230,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     }
+    },
+    {
+     "classMaxValue": 0.6,
+     "label": "0.31% - 0.6%",
+     "description": "",
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       140,
+       150,
+       198,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     }
+    },
+    {
+     "classMaxValue": 1.4,
+     "label": "0.61% - 1.4%",
+     "description": "",
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       136,
+       65,
+       157,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     }
+    },
+    {
+     "classMaxValue": 10.2,
+     "label": "1.41% - 10.2%",
+     "description": "",
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       77,
+       0,
+       75,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     }
+    }
+   ]
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 1,
+       "minimumFractionDigits": 1,
+       "useGrouping": "never"
+      },
+      "fieldName": "F__Not_Hispanic_or_Latino___Nat",
+      "format": {
+       "digitSeparator": false,
+       "places": 1
+      },
+      "isEditable": true,
+      "label": "% Not Hispanic or Latino & Native Hawaiian and Other Pacific Islander Alone",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "B03002_001E_Total_Pop",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Total Population",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "B03002_007E_NHoL_Native_Hawaiia",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Native Hawaiian and Other Pacific Islander",
+      "visible": true
+     },
+     {
+      "fieldName": "NAME",
+      "isEditable": true,
+      "label": "Geographic Area Name",
+      "visible": true
+     },
+     {
+      "fieldName": "TractID",
+      "isEditable": true,
+      "label": "Census Tract Geographic ID",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "CT20",
+    "isEditable": true,
+    "label": "CT20",
+    "visible": false
+   },
+   {
+    "fieldName": "LABEL",
+    "isEditable": true,
+    "label": "LABEL",
+    "visible": false
+   },
+   {
+    "fieldName": "OBJECTID_1",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "GEO_ID",
+    "isEditable": true,
+    "label": "GEO_ID",
+    "visible": false
+   },
+   {
+    "fieldName": "TractID",
+    "isEditable": true,
+    "label": "Census Tract Geographic ID",
+    "visible": true
+   },
+   {
+    "fieldName": "ShortenedTractID",
+    "isEditable": true,
+    "label": "ShortenedTractID",
+    "visible": false
+   },
+   {
+    "fieldName": "NAME",
+    "isEditable": true,
+    "label": "Geographic Area Name",
+    "visible": true
+   },
+   {
+    "fieldName": "B03002_001E_Total_Pop",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Total Population",
+    "visible": true
+   },
+   {
+    "fieldName": "B03002_007E_NHoL_Native_Hawaiia",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Native Hawaiian and Other Pacific Islander",
+    "visible": true
+   },
+   {
+    "fieldName": "F__Not_Hispanic_or_Latino___Nat",
+    "format": {
+     "digitSeparator": false,
+     "places": 1
+    },
+    "isEditable": true,
+    "label": "% Not Hispanic or Latino & Native Hawaiian and Other Pacific Islander Alone",
+    "visible": true
+   },
+   {
+    "fieldName": "ACS_Data_Year",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ACS Data Year",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "GEOID_20",
+    "isEditable": true,
+    "label": "GEOID_20",
+    "visible": false
+   },
+   {
+    "fieldName": "Data_Value",
+    "isEditable": true,
+    "label": "Data_Value",
+    "visible": false
+   }
+  ],
+  "title": "{NAME}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CT20",
+   "type": "esriFieldTypeString",
+   "alias": "CT20",
+   "sqlType": "sqlTypeOther",
+   "length": 6,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "LABEL",
+   "sqlType": "sqlTypeOther",
+   "length": 7,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID_1",
+   "type": "esriFieldTypeInteger",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEO_ID",
+   "type": "esriFieldTypeString",
+   "alias": "GEO_ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "TractID",
+   "type": "esriFieldTypeString",
+   "alias": "TractID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShortenedTractID",
+   "type": "esriFieldTypeString",
+   "alias": "ShortenedTractID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "B03002_001E_Total_Pop",
+   "type": "esriFieldTypeDouble",
+   "alias": "B03002_001E Total Pop",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "B03002_007E_NHoL_Native_Hawaiia",
+   "type": "esriFieldTypeDouble",
+   "alias": "B03002_007E NHoL Native Hawaiian and Other Pacific Islander Alon",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "F__Not_Hispanic_or_Latino___Nat",
+   "type": "esriFieldTypeDouble",
+   "alias": "% Not Hispanic or Latino & Native Hawaiian and Other Pacific Isl",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ACS_Data_Year",
+   "type": "esriFieldTypeDouble",
+   "alias": "ACS Data Year",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "GEOID_20",
+   "type": "esriFieldTypeString",
+   "alias": "GEOID_20",
+   "sqlType": "sqlTypeOther",
+   "length": 11,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Data_Value",
+   "type": "esriFieldTypeDouble",
+   "alias": "Data_Value",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

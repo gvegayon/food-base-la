@@ -1,0 +1,284 @@
+{
+ "title": "Cities",
+ "group": [
+  "Spatial Boundaries"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/City_Boundaries_Updated_02242025/FeatureServer/1",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     130,
+     130,
+     130,
+     0
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      56,
+      168,
+      0,
+      255
+     ],
+     "width": 2
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "FID",
+    "visible": true
+   },
+   {
+    "fieldName": "OBJECTID_1",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "OBJECTID",
+    "visible": true
+   },
+   {
+    "fieldName": "CITY",
+    "isEditable": true,
+    "label": "CITY",
+    "visible": true
+   },
+   {
+    "fieldName": "CITY_ID",
+    "isEditable": true,
+    "label": "CITY_ID",
+    "visible": true
+   },
+   {
+    "fieldName": "CITY_TYPE",
+    "isEditable": true,
+    "label": "CITY_TYPE",
+    "visible": true
+   },
+   {
+    "fieldName": "CITY_NAME",
+    "isEditable": true,
+    "label": "CITY_NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "CITY_LABEL",
+    "isEditable": true,
+    "label": "CITY_LABEL",
+    "visible": true
+   },
+   {
+    "fieldName": "URL",
+    "isEditable": true,
+    "label": "URL",
+    "visible": true
+   },
+   {
+    "fieldName": "PHONE",
+    "isEditable": true,
+    "label": "PHONE",
+    "visible": true
+   },
+   {
+    "fieldName": "FEAT_TYPE",
+    "isEditable": true,
+    "label": "FEAT_TYPE",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": true
+   },
+   {
+    "fieldName": "SQMI",
+    "isEditable": true,
+    "label": "SQMI",
+    "visible": false
+   }
+  ],
+  "title": "{CITY_NAME}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "FID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID_1",
+   "type": "esriFieldTypeInteger",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CITY",
+   "type": "esriFieldTypeString",
+   "alias": "CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 1,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CITY_ID",
+   "type": "esriFieldTypeString",
+   "alias": "CITY_ID",
+   "sqlType": "sqlTypeOther",
+   "length": 1,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CITY_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "CITY_TYPE",
+   "sqlType": "sqlTypeOther",
+   "length": 14,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CITY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "CITY_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 21,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CITY_LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "CITY_LABEL",
+   "sqlType": "sqlTypeOther",
+   "length": 21,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "URL",
+   "type": "esriFieldTypeString",
+   "alias": "URL",
+   "sqlType": "sqlTypeOther",
+   "length": 34,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "PHONE",
+   "type": "esriFieldTypeString",
+   "alias": "PHONE",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FEAT_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "FEAT_TYPE",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SQMI",
+   "type": "esriFieldTypeDouble",
+   "alias": "SQMI",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

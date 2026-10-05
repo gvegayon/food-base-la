@@ -1,0 +1,157 @@
+{
+ "title": "LA Times Neighborhoods",
+ "group": [
+  "Spatial Boundaries"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LATimesNeighborhoods_LACounty/FeatureServer/0",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "CIMSymbolReference",
+    "symbol": {
+     "type": "CIMPolygonSymbol",
+     "symbolLayers": [
+      {
+       "type": "CIMSolidStroke",
+       "enable": true,
+       "capStyle": "Round",
+       "joinStyle": "Round",
+       "lineStyle3D": "Strip",
+       "miterLimit": 10,
+       "width": 2.498,
+       "height3D": 1,
+       "anchor3D": "Center",
+       "color": [
+        32,
+        58,
+        230,
+        255
+       ]
+      },
+      {
+       "type": "CIMSolidFill",
+       "enable": true,
+       "color": [
+        240,
+        202,
+        252,
+        0
+       ]
+      }
+     ],
+     "angleAlignment": "Map"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": true
+   },
+   {
+    "fieldName": "Name",
+    "isEditable": true,
+    "label": "Name",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Shape__Area",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "Shape__Length",
+    "visible": true
+   },
+   {
+    "fieldName": "SqMl",
+    "isEditable": true,
+    "label": "SqMl",
+    "visible": false
+   }
+  ],
+  "title": "{Name}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Name",
+   "type": "esriFieldTypeString",
+   "alias": "Name",
+   "sqlType": "sqlTypeOther",
+   "length": 80,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SqMl",
+   "type": "esriFieldTypeSingle",
+   "alias": "SqMl",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

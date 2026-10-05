@@ -1,0 +1,1261 @@
+{
+ "title": "CalFresh Cases",
+ "group": [
+  "Food Assistance and Benefits"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/CalFresh_Cases_Polygon/FeatureServer/267",
+ "drawingInfo": {
+  "renderer": {
+   "type": "classBreaks",
+   "authoringInfo": {
+    "type": "classedColor",
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        255,
+        255,
+        230,
+        255
+       ],
+       "toColor": [
+        255,
+        247,
+        189,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        255,
+        247,
+        189,
+        255
+       ],
+       "toColor": [
+        255,
+        228,
+        145,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        255,
+        228,
+        145,
+        255
+       ],
+       "toColor": [
+        255,
+        196,
+        79,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        255,
+        196,
+        79,
+        255
+       ],
+       "toColor": [
+        255,
+        155,
+        41,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        255,
+        155,
+        41,
+        255
+       ],
+       "toColor": [
+        237,
+        114,
+        19,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        237,
+        114,
+        19,
+        255
+       ],
+       "toColor": [
+        204,
+        76,
+        2,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        204,
+        76,
+        2,
+        255
+       ],
+       "toColor": [
+        153,
+        52,
+        5,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        153,
+        52,
+        5,
+        255
+       ],
+       "toColor": [
+        102,
+        36,
+        6,
+        255
+       ]
+      }
+     ]
+    },
+    "classificationMethod": "esriClassifyManual"
+   },
+   "field": "calfresh_cases",
+   "classificationMethod": "esriClassifyManual",
+   "minValue": 1,
+   "classBreakInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       255,
+       229,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 500,
+     "label": "0- 500"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       254,
+       206,
+       101,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 2500,
+     "label": "501 - 2500"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       225,
+       100,
+       14,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 5000,
+     "label": "2501 - 5000"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       102,
+       37,
+       6,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.7
+      }
+     },
+     "classMaxValue": 21842,
+     "label": "> 5000"
+    }
+   ],
+   "legendOptions": {
+    "order": "ascendingValues"
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "OBJECTID",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": false,
+      "label": "OBJECTID",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "OBJECTID_1",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "OBJECTID",
+      "visible": true
+     },
+     {
+      "fieldName": "CT20",
+      "isEditable": true,
+      "label": "CT20",
+      "visible": true
+     },
+     {
+      "fieldName": "LABEL",
+      "isEditable": true,
+      "label": "LABEL",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "ShapeSTAre",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "ShapeSTAre",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "ShapeSTLen",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "ShapeSTLen",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "tract",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "tract",
+      "visible": true
+     },
+     {
+      "fieldName": "short_tract_id_20",
+      "isEditable": true,
+      "label": "short_tract_id_20",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "families_all",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "families_all",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "fam_below_200fpl",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "fam_below_200fpl",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "fam_below_300fpl",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "fam_below_300fpl",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "fam_received_ssi_cash_assistanc",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "fam_received_ssi_cash_assistanc",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "fam_below_fpl_pct",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "fam_below_fpl_pct",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "fam_below_200fpl_pct",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "fam_below_200fpl_pct",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "fam_below_300fpl_pct",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "fam_below_300fpl_pct",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "fam_received_assistance_pct",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "fam_received_assistance_pct",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "fam_below_fpl_received_assistan",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "fam_below_fpl_received_assistan",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "assistance_per_100_fam_below_20",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "assistance_per_100_fam_below_20",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "assistance_per_100_fam_below_30",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "assistance_per_100_fam_below_30",
+      "visible": true
+     },
+     {
+      "fieldName": "sup_dist",
+      "isEditable": true,
+      "label": "sup_dist",
+      "visible": true
+     },
+     {
+      "fieldName": "csa",
+      "isEditable": true,
+      "label": "csa",
+      "visible": true
+     },
+     {
+      "fieldName": "spa",
+      "isEditable": true,
+      "label": "spa",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "calfresh_cases",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "calfresh_cases",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "calfresh_per_100_families",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "calfresh_per_100_families",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "calfresh_per_100_fam_below_200f",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "calfresh_per_100_fam_below_200f",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "calfresh_per_100_fam_below_300f",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "calfresh_per_100_fam_below_300f",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "ESRI_OID",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "ESRI_OID",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "OBJECTID_1_1",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "ObjectID",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "Shape__Length",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": false,
+      "label": "SHAPE__Length",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "Shape__Area",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": false,
+      "label": "SHAPE__Area",
+      "visible": true
+     }
+    ]
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.CT20",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": true
+   },
+   {
+    "fieldName": "OBJECTID_1",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "OBJECTID",
+    "visible": true
+   },
+   {
+    "fieldName": "CT20",
+    "isEditable": true,
+    "label": "CT20",
+    "visible": true
+   },
+   {
+    "fieldName": "LABEL",
+    "isEditable": true,
+    "label": "LABEL",
+    "visible": true
+   },
+   {
+    "fieldName": "ShapeSTAre",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ShapeSTAre",
+    "visible": true
+   },
+   {
+    "fieldName": "ShapeSTLen",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ShapeSTLen",
+    "visible": true
+   },
+   {
+    "fieldName": "tract",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "tract",
+    "visible": true
+   },
+   {
+    "fieldName": "short_tract_id_20",
+    "isEditable": true,
+    "label": "short_tract_id_20",
+    "visible": true
+   },
+   {
+    "fieldName": "families_all",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "families_all",
+    "visible": true
+   },
+   {
+    "fieldName": "fam_below_200fpl",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "fam_below_200fpl",
+    "visible": true
+   },
+   {
+    "fieldName": "fam_below_300fpl",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "fam_below_300fpl",
+    "visible": true
+   },
+   {
+    "fieldName": "fam_received_ssi_cash_assistanc",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "fam_received_ssi_cash_assistanc",
+    "visible": true
+   },
+   {
+    "fieldName": "fam_below_fpl_pct",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "fam_below_fpl_pct",
+    "visible": true
+   },
+   {
+    "fieldName": "fam_below_200fpl_pct",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "fam_below_200fpl_pct",
+    "visible": true
+   },
+   {
+    "fieldName": "fam_below_300fpl_pct",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "fam_below_300fpl_pct",
+    "visible": true
+   },
+   {
+    "fieldName": "fam_received_assistance_pct",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "fam_received_assistance_pct",
+    "visible": true
+   },
+   {
+    "fieldName": "fam_below_fpl_received_assistan",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "fam_below_fpl_received_assistan",
+    "visible": true
+   },
+   {
+    "fieldName": "assistance_per_100_fam_below_20",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "assistance_per_100_fam_below_20",
+    "visible": true
+   },
+   {
+    "fieldName": "assistance_per_100_fam_below_30",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "assistance_per_100_fam_below_30",
+    "visible": true
+   },
+   {
+    "fieldName": "sup_dist",
+    "isEditable": true,
+    "label": "sup_dist",
+    "visible": true
+   },
+   {
+    "fieldName": "csa",
+    "isEditable": true,
+    "label": "csa",
+    "visible": true
+   },
+   {
+    "fieldName": "spa",
+    "isEditable": true,
+    "label": "spa",
+    "visible": true
+   },
+   {
+    "fieldName": "calfresh_cases",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "calfresh_cases",
+    "visible": true
+   },
+   {
+    "fieldName": "calfresh_per_100_families",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "calfresh_per_100_families",
+    "visible": true
+   },
+   {
+    "fieldName": "calfresh_per_100_fam_below_200f",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "calfresh_per_100_fam_below_200f",
+    "visible": true
+   },
+   {
+    "fieldName": "calfresh_per_100_fam_below_300f",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "calfresh_per_100_fam_below_300f",
+    "visible": true
+   },
+   {
+    "fieldName": "ESRI_OID",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "ESRI_OID",
+    "visible": true
+   },
+   {
+    "fieldName": "OBJECTID_1_1",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "ObjectID",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": true
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{expression/displayExp}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID_1",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "CT20",
+   "type": "esriFieldTypeString",
+   "alias": "CT20",
+   "sqlType": "sqlTypeOther",
+   "length": 6,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "LABEL",
+   "sqlType": "sqlTypeOther",
+   "length": 7,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShapeSTAre",
+   "type": "esriFieldTypeDouble",
+   "alias": "ShapeSTAre",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ShapeSTLen",
+   "type": "esriFieldTypeDouble",
+   "alias": "ShapeSTLen",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "tract",
+   "type": "esriFieldTypeDouble",
+   "alias": "tract",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "short_tract_id_20",
+   "type": "esriFieldTypeString",
+   "alias": "short_tract_id_20",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "families_all",
+   "type": "esriFieldTypeDouble",
+   "alias": "families_all",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fam_below_200fpl",
+   "type": "esriFieldTypeDouble",
+   "alias": "fam_below_200fpl",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fam_below_300fpl",
+   "type": "esriFieldTypeDouble",
+   "alias": "fam_below_300fpl",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fam_received_ssi_cash_assistanc",
+   "type": "esriFieldTypeDouble",
+   "alias": "fam_received_ssi_cash_assistanc",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fam_below_fpl_pct",
+   "type": "esriFieldTypeDouble",
+   "alias": "fam_below_fpl_pct",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fam_below_200fpl_pct",
+   "type": "esriFieldTypeDouble",
+   "alias": "fam_below_200fpl_pct",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fam_below_300fpl_pct",
+   "type": "esriFieldTypeDouble",
+   "alias": "fam_below_300fpl_pct",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fam_received_assistance_pct",
+   "type": "esriFieldTypeDouble",
+   "alias": "fam_received_assistance_pct",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fam_below_fpl_received_assistan",
+   "type": "esriFieldTypeDouble",
+   "alias": "fam_below_fpl_received_assistan",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "assistance_per_100_fam_below_20",
+   "type": "esriFieldTypeDouble",
+   "alias": "assistance_per_100_fam_below_20",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "assistance_per_100_fam_below_30",
+   "type": "esriFieldTypeDouble",
+   "alias": "assistance_per_100_fam_below_30",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "sup_dist",
+   "type": "esriFieldTypeString",
+   "alias": "sup_dist",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "csa",
+   "type": "esriFieldTypeString",
+   "alias": "csa",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "spa",
+   "type": "esriFieldTypeString",
+   "alias": "spa",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "calfresh_cases",
+   "type": "esriFieldTypeDouble",
+   "alias": "calfresh_cases",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "calfresh_per_100_families",
+   "type": "esriFieldTypeDouble",
+   "alias": "calfresh_per_100_families",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "calfresh_per_100_fam_below_200f",
+   "type": "esriFieldTypeDouble",
+   "alias": "calfresh_per_100_fam_below_200f",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "calfresh_per_100_fam_below_300f",
+   "type": "esriFieldTypeDouble",
+   "alias": "calfresh_per_100_fam_below_300f",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ESRI_OID",
+   "type": "esriFieldTypeDouble",
+   "alias": "ESRI_OID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID_1_1",
+   "type": "esriFieldTypeInteger",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

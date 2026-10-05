@@ -1,0 +1,429 @@
+{
+ "title": "Urban Farms",
+ "group": [
+  "Urban Agriculture",
+  "Green and Garden Spaces"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LA_County_Urban_Farms/FeatureServer/66",
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "Type",
+   "uniqueValueGroups": [
+    {
+     "heading": "Type",
+     "classes": [
+      {
+       "label": "Farm",
+       "description": "Farm",
+       "symbol": {
+        "type": "esriPMS",
+        "url": "48dd7df1c0bd54fbf1495a67c1b013d2",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACeElEQVQ4jb2Uv28SYRzGn6OQI1crUY42xdgfi0CDOMjgYhMHTZPK0JpqMXHFtf9BdWFxcC6riaUSiEqaGAeHEt0YXKQMaqqGprYxPZSzF1LOPAcHd0Cwg/FJLvfmvbvP+/31nBP/WM7/Bnyaz8uO2tGsLggLAuADBBnQDwChpAP78Tu3kicGptOZRahaIhAMBqenJnxut+gSRdGlaVpdUapXPn76vJ/eyC5CbySXl5dyA4HpZ9mE7PWuXAzP+EdHfR7uNdRdAOMglHu8ZkJBdavwbnV9Ixu0Ruvsjuysu7Zy6TAZGvn9AMBN1PeLUAr3jeeeq2tw+S5DLaVQL6Wk+bl8ZPPNe6xnMoX40lLBBmTNmGY4HPbXXxfx41UMQ5Ifx2qlfeBBLmoAeYipG9evhZ6/2HwMIGoDsgGs2diY17PX2rPCTDVqTL8jURRdgcAFmdmxnm0gu8kGALUeiBRKtNee2TV8f3LOdtj01IRvu1xeANABcjTYTRzXemBMk3JPxvCr+LAnco/ntCRACHU1RZAZfkO1w4aG/e01Ydb69ZOzs9QPOGcuwGXudMOOdvLGmnerNE2rN4feHmGJQyufgjF7FKM5M/eymWatYsCUreYIWaUoVZXf24C0Ex0gR84bQI6MCXNI48bVD0ZVdvcOIcAO5LTTToHJEVZRYuG7u9lPilJVt8vlgi6JuV7r6Y3k2+LO6vy9SgQn0M/6sPqhtF2BQ0/djcW6awhwMOlN2okOYNcHRUbYl6/fHsVvN23XG2ErdXqTdqIDOLScMz5r/W1U1oxpMjIrrC/QgDaNHqWd6ABzaM3/IRvAmplp/hVoLQHtNOidbv0Bvq8snYZnFm0AAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "width": 15,
+        "height": 15,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0
+       },
+       "values": [
+        [
+         "Farm"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriPMS",
+      "url": "48dd7df1c0bd54fbf1495a67c1b013d2",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACeElEQVQ4jb2Uv28SYRzGn6OQI1crUY42xdgfi0CDOMjgYhMHTZPK0JpqMXHFtf9BdWFxcC6riaUSiEqaGAeHEt0YXKQMaqqGprYxPZSzF1LOPAcHd0Cwg/FJLvfmvbvP+/31nBP/WM7/Bnyaz8uO2tGsLggLAuADBBnQDwChpAP78Tu3kicGptOZRahaIhAMBqenJnxut+gSRdGlaVpdUapXPn76vJ/eyC5CbySXl5dyA4HpZ9mE7PWuXAzP+EdHfR7uNdRdAOMglHu8ZkJBdavwbnV9Ixu0Ruvsjuysu7Zy6TAZGvn9AMBN1PeLUAr3jeeeq2tw+S5DLaVQL6Wk+bl8ZPPNe6xnMoX40lLBBmTNmGY4HPbXXxfx41UMQ5Ifx2qlfeBBLmoAeYipG9evhZ6/2HwMIGoDsgGs2diY17PX2rPCTDVqTL8jURRdgcAFmdmxnm0gu8kGALUeiBRKtNee2TV8f3LOdtj01IRvu1xeANABcjTYTRzXemBMk3JPxvCr+LAnco/ntCRACHU1RZAZfkO1w4aG/e01Ydb69ZOzs9QPOGcuwGXudMOOdvLGmnerNE2rN4feHmGJQyufgjF7FKM5M/eymWatYsCUreYIWaUoVZXf24C0Ex0gR84bQI6MCXNI48bVD0ZVdvcOIcAO5LTTToHJEVZRYuG7u9lPilJVt8vlgi6JuV7r6Y3k2+LO6vy9SgQn0M/6sPqhtF2BQ0/djcW6awhwMOlN2okOYNcHRUbYl6/fHsVvN23XG2ErdXqTdqIDOLScMz5r/W1U1oxpMjIrrC/QgDaNHqWd6ABzaM3/IRvAmplp/hVoLQHtNOidbv0Bvq8snYZnFm0AAAAASUVORK5CYII=",
+      "contentType": "image/png",
+      "width": 15,
+      "height": 15,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     },
+     "value": "Farm",
+     "label": "Farm"
+    }
+   ],
+   "fieldDelimiter": ",",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        54,
+        186,
+        144,
+        255
+       ],
+       "toColor": [
+        54,
+        186,
+        144,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        122,
+        45,
+        173,
+        255
+       ],
+       "toColor": [
+        122,
+        45,
+        173,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        168,
+        53,
+        35,
+        255
+       ],
+       "toColor": [
+        168,
+        53,
+        35,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        52,
+        135,
+        199,
+        255
+       ],
+       "toColor": [
+        52,
+        135,
+        199,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        191,
+        182,
+        59,
+        255
+       ],
+       "toColor": [
+        191,
+        182,
+        59,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        166,
+        36,
+        101,
+        255
+       ],
+       "toColor": [
+        166,
+        36,
+        101,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        40,
+        189,
+        42,
+        255
+       ],
+       "toColor": [
+        40,
+        189,
+        42,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        42,
+        82,
+        184,
+        255
+       ],
+       "toColor": [
+        42,
+        82,
+        184,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        199,
+        133,
+        76,
+        255
+       ],
+       "toColor": [
+        199,
+        133,
+        76,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        78,
+        180,
+        194,
+        255
+       ],
+       "toColor": [
+        78,
+        180,
+        194,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        108,
+        156,
+        61,
+        255
+       ],
+       "toColor": [
+        108,
+        156,
+        61,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        199,
+        46,
+        201,
+        255
+       ],
+       "toColor": [
+        199,
+        46,
+        201,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        199,
+        50,
+        82,
+        255
+       ],
+       "toColor": [
+        199,
+        50,
+        82,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "Name",
+      "isEditable": true,
+      "label": "Name",
+      "visible": true
+     },
+     {
+      "fieldName": "Address",
+      "isEditable": true,
+      "label": "Address",
+      "visible": true
+     },
+     {
+      "fieldName": "Type",
+      "isEditable": true,
+      "label": "Type",
+      "visible": true
+     },
+     {
+      "fieldName": "Watershed",
+      "isEditable": true,
+      "label": "Watershed",
+      "visible": true
+     },
+     {
+      "fieldName": "Source",
+      "isEditable": true,
+      "label": "Source",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "Name",
+    "isEditable": true,
+    "label": "Name",
+    "visible": true
+   },
+   {
+    "fieldName": "Address",
+    "isEditable": true,
+    "label": "Address",
+    "visible": true
+   },
+   {
+    "fieldName": "Type",
+    "isEditable": true,
+    "label": "Type",
+    "visible": true
+   },
+   {
+    "fieldName": "Source",
+    "isEditable": true,
+    "label": "Source",
+    "visible": true
+   },
+   {
+    "fieldName": "Watershed",
+    "isEditable": true,
+    "label": "Watershed",
+    "visible": true
+   }
+  ],
+  "title": "{Name}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Name",
+   "type": "esriFieldTypeString",
+   "alias": "Name",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Address",
+   "type": "esriFieldTypeString",
+   "alias": "Address",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Type",
+   "type": "esriFieldTypeString",
+   "alias": "Type",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Source",
+   "type": "esriFieldTypeString",
+   "alias": "Source",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "Watershed",
+   "type": "esriFieldTypeString",
+   "alias": "Watershed",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  }
+ ]
+}

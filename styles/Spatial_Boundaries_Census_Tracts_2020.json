@@ -1,0 +1,197 @@
+{
+ "title": "Census Tracts (2020)",
+ "group": [
+  "Spatial Boundaries"
+ ],
+ "url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/Demographics/MapServer/14",
+ "drawingInfo": {
+  "labelingInfo": [
+   {
+    "name": "Default",
+    "allowOverrun": true,
+    "labelExpression": "[CT20]",
+    "labelExpressionInfo": {
+     "expression": "$feature[\"CT20\"]"
+    },
+    "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+    "repeatLabel": false,
+    "symbol": {
+     "type": "esriTS",
+     "color": [
+      255,
+      170,
+      0,
+      255
+     ],
+     "font": {
+      "family": "Arial",
+      "size": 9,
+      "weight": "bold"
+     },
+     "horizontalAlignment": "center",
+     "kerning": true,
+     "haloColor": [
+      255,
+      255,
+      255,
+      255
+     ],
+     "haloSize": 1,
+     "rightToLeft": false,
+     "rotated": false,
+     "text": "",
+     "verticalAlignment": "bottom",
+     "xoffset": 0,
+     "yoffset": 0,
+     "angle": 0
+    },
+    "useCodedValues": true
+   }
+  ],
+  "renderer": {
+   "type": "simple",
+   "visualVariables": [
+    {
+     "type": "sizeInfo",
+     "valueExpression": "$view.scale",
+     "stops": [
+      {
+       "size": 2.669672520170859,
+       "value": 25277
+      },
+      {
+       "size": 1.3348362600854295,
+       "value": 78990
+      },
+      {
+       "size": 0.6674181300427148,
+       "value": 315960
+      },
+      {
+       "size": 0,
+       "value": 631919
+      }
+     ],
+     "target": "outline"
+    }
+   ],
+   "symbol": {
+    "type": "esriSFS",
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "color": [
+      255,
+      211,
+      127,
+      255
+     ],
+     "width": 0.75,
+     "style": "esriSLSSolid"
+    },
+    "style": "esriSFSSolid"
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "CT20",
+    "isEditable": true,
+    "label": "CT20",
+    "visible": false
+   },
+   {
+    "fieldName": "LABEL",
+    "isEditable": true,
+    "label": "LABEL",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape.STArea()",
+    "format": {
+     "digitSeparator": true,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "Shape.STArea()",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape.STLength()",
+    "format": {
+     "digitSeparator": true,
+     "places": 2
+    },
+    "isEditable": true,
+    "label": "Shape.STLength()",
+    "visible": false
+   }
+  ],
+  "title": "Demographics - 2020 Census Tracts: LA County {CT20}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "CT20",
+   "type": "esriFieldTypeString",
+   "alias": "CT20",
+   "length": 6,
+   "domain": null
+  },
+  {
+   "name": "LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "LABEL",
+   "length": 7,
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "Shape.STArea()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STArea()",
+   "domain": null
+  },
+  {
+   "name": "Shape.STLength()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STLength()",
+   "domain": null
+  }
+ ]
+}

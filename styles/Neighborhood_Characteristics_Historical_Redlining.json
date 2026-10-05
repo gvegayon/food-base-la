@@ -1,0 +1,809 @@
+{
+ "title": "Historical Redlining",
+ "group": [
+  "Neighborhood Characteristics"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/Redlining/FeatureServer/1",
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "grade",
+   "uniqueValueGroups": [
+    {
+     "heading": "Grade",
+     "classes": [
+      {
+       "label": "D",
+       "description": "D",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         0,
+         0,
+         127
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          130,
+          130,
+          130,
+          127
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "D"
+        ]
+       ]
+      },
+      {
+       "label": "A, B, or C",
+       "description": "A, B, or C",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         255,
+         202,
+         127
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          130,
+          130,
+          130,
+          127
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "A, B, or C"
+        ]
+       ]
+      },
+      {
+       "label": "No Grade",
+       "description": "No Grade",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         255,
+         224,
+         189,
+         127
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          130,
+          130,
+          130,
+          127
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "No Grade"
+        ]
+       ]
+      },
+      {
+       "label": "No Data",
+       "description": "No Data",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         130,
+         130,
+         130,
+         127
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          130,
+          130,
+          130,
+          127
+         ],
+         "width": 0.7
+        }
+       },
+       "values": [
+        [
+         "No Data"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       0,
+       0,
+       127
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        130,
+        130,
+        130,
+        127
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "D",
+     "label": "D"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       255,
+       202,
+       127
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        130,
+        130,
+        130,
+        127
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "A, B, or C",
+     "label": "A, B, or C"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       224,
+       189,
+       127
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        130,
+        130,
+        130,
+        127
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "No Grade",
+     "label": "No Grade"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       130,
+       130,
+       130,
+       127
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        130,
+        130,
+        130,
+        127
+       ],
+       "width": 0.7
+      }
+     },
+     "value": "No Data",
+     "label": "No Data"
+    }
+   ],
+   "fieldDelimiter": ";",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        237,
+        252,
+        207,
+        255
+       ],
+       "toColor": [
+        237,
+        252,
+        207,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        244,
+        182,
+        252,
+        255
+       ],
+       "toColor": [
+        244,
+        182,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        187,
+        224,
+        252,
+        255
+       ],
+       "toColor": [
+        187,
+        224,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        185,
+        184,
+        255
+       ],
+       "toColor": [
+        252,
+        185,
+        184,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        252,
+        227,
+        255
+       ],
+       "toColor": [
+        179,
+        252,
+        227,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        189,
+        190,
+        252,
+        255
+       ],
+       "toColor": [
+        189,
+        190,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        252,
+        180,
+        255
+       ],
+       "toColor": [
+        179,
+        252,
+        180,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        223,
+        189,
+        255
+       ],
+       "toColor": [
+        252,
+        223,
+        189,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        212,
+        237,
+        255
+       ],
+       "toColor": [
+        252,
+        212,
+        237,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        212,
+        252,
+        250,
+        255
+       ],
+       "toColor": [
+        212,
+        252,
+        250,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        218,
+        215,
+        255
+       ],
+       "toColor": [
+        252,
+        218,
+        215,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        194,
+        244,
+        255
+       ],
+       "toColor": [
+        252,
+        194,
+        244,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        230,
+        215,
+        252,
+        255
+       ],
+       "toColor": [
+        230,
+        215,
+        252,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "category",
+      "isEditable": true,
+      "label": "Category",
+      "visible": true
+     },
+     {
+      "fieldName": "label",
+      "isEditable": true,
+      "label": "Label",
+      "visible": true
+     },
+     {
+      "fieldName": "grade",
+      "isEditable": true,
+      "label": "Grade",
+      "visible": true
+     },
+     {
+      "fieldName": "city",
+      "isEditable": true,
+      "label": "City",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "residential",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Residential",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "industrial",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Industrial",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "commercial",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Commercial",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "label",
+    "isEditable": true,
+    "label": "Label",
+    "visible": true
+   },
+   {
+    "fieldName": "category",
+    "isEditable": true,
+    "label": "Category",
+    "visible": true
+   },
+   {
+    "fieldName": "grade",
+    "isEditable": true,
+    "label": "Grade",
+    "visible": true
+   },
+   {
+    "fieldName": "city_survey",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "city survey",
+    "visible": false
+   },
+   {
+    "fieldName": "residential",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Residential",
+    "visible": true
+   },
+   {
+    "fieldName": "industrial",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Industrial",
+    "visible": true
+   },
+   {
+    "fieldName": "commercial",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Commercial",
+    "visible": true
+   },
+   {
+    "fieldName": "city",
+    "isEditable": true,
+    "label": "City",
+    "visible": true
+   },
+   {
+    "fieldName": "state",
+    "isEditable": true,
+    "label": "state",
+    "visible": false
+   },
+   {
+    "fieldName": "fill",
+    "isEditable": true,
+    "label": "fill",
+    "visible": false
+   },
+   {
+    "fieldName": "area_id",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "area id",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": false
+   }
+  ],
+  "title": "{category}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "label",
+   "type": "esriFieldTypeString",
+   "alias": "Label",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "category",
+   "type": "esriFieldTypeString",
+   "alias": "Category",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "grade",
+   "type": "esriFieldTypeString",
+   "alias": "Grade",
+   "sqlType": "sqlTypeOther",
+   "length": 10,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "city_survey",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "city survey",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "residential",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "residential",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "industrial",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "industrial",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "commercial",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "commercial",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "city",
+   "type": "esriFieldTypeString",
+   "alias": "city",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "state",
+   "type": "esriFieldTypeString",
+   "alias": "state",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "fill",
+   "type": "esriFieldTypeString",
+   "alias": "fill",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "area_id",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "area id",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

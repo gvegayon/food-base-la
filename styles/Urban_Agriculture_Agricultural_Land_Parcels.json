@@ -1,0 +1,231 @@
+{
+ "title": "Agricultural Land Parcels",
+ "group": [
+  "Urban Agriculture"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/Agricultural_Land_Use_LA_County/FeatureServer/64",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "style": "esriSFSBackwardDiagonal",
+    "color": [
+     85,
+     255,
+     0,
+     255
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      56,
+      168,
+      0,
+      255
+     ],
+     "width": 0.5
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 15,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "NAME",
+      "isEditable": true,
+      "label": "Name",
+      "visible": true
+     },
+     {
+      "fieldName": "ZONE",
+      "isEditable": true,
+      "label": "Zone Code",
+      "visible": true
+     },
+     {
+      "fieldName": "Z_DESC",
+      "isEditable": true,
+      "label": "Zone Description",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "isEditable": false,
+    "label": "OBJECTID_1",
+    "visible": false
+   },
+   {
+    "fieldName": "OBJECTID_1",
+    "format": {
+     "digitSeparator": false
+    },
+    "isEditable": true,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "ZONE",
+    "isEditable": true,
+    "label": "Zone Code",
+    "visible": true
+   },
+   {
+    "fieldName": "Z_NAME",
+    "isEditable": true,
+    "label": "Zone Name",
+    "visible": false
+   },
+   {
+    "fieldName": "Z_DESC",
+    "isEditable": true,
+    "label": "Zone Description",
+    "visible": true
+   },
+   {
+    "fieldName": "NAME",
+    "isEditable": true,
+    "label": "Name",
+    "visible": true
+   },
+   {
+    "fieldName": "Z_CATEGORY",
+    "isEditable": true,
+    "label": "Zone Category",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape Length",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape Area",
+    "visible": false
+   }
+  ],
+  "title": "{NAME}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID_1",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID_1",
+   "type": "esriFieldTypeInteger",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ZONE",
+   "type": "esriFieldTypeString",
+   "alias": "ZONE",
+   "sqlType": "sqlTypeOther",
+   "length": 15,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Z_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "Z_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 12,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Z_DESC",
+   "type": "esriFieldTypeString",
+   "alias": "Z_DESC",
+   "sqlType": "sqlTypeOther",
+   "length": 34,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 41,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Z_CATEGORY",
+   "type": "esriFieldTypeString",
+   "alias": "Z_CATEGORY",
+   "sqlType": "sqlTypeOther",
+   "length": 7,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

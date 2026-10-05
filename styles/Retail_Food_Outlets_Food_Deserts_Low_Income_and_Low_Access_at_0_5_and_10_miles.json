@@ -1,0 +1,734 @@
+{
+ "title": "Low Income and Low Access at 0.5 and 10 miles",
+ "group": [
+  "Retail Food Outlets",
+  "Food Deserts"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LILA_Halfand10Miles_Republished/FeatureServer/83",
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "LILATracts",
+   "uniqueValueGroups": [
+    {
+     "heading": "Low Income and Low Access Census Tracts at 1/2 and 10 miles",
+     "classes": [
+      {
+       "label": "Yes",
+       "description": "Yes",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         75,
+         0,
+         115,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.25
+        }
+       },
+       "values": [
+        [
+         "Yes"
+        ]
+       ]
+      },
+      {
+       "label": "No",
+       "description": "No",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         252,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.25
+        }
+       },
+       "values": [
+        [
+         "No"
+        ]
+       ]
+      },
+      {
+       "label": "No Data",
+       "description": "No Data",
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         128,
+         128,
+         128,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.25
+        }
+       },
+       "values": [
+        [
+         "No Data"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       75,
+       0,
+       115,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "value": "Yes",
+     "label": "Yes"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       252,
+       252,
+       252,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "value": "No",
+     "label": "No"
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       128,
+       128,
+       128,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        110,
+        110,
+        110,
+        255
+       ],
+       "width": 0.25
+      }
+     },
+     "value": "No Data",
+     "label": "No Data"
+    }
+   ],
+   "fieldDelimiter": ",",
+   "authoringInfo": {
+    "colorRamp": {
+     "type": "multipart",
+     "colorRamps": [
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        220,
+        202,
+        255
+       ],
+       "toColor": [
+        252,
+        220,
+        202,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        184,
+        179,
+        252,
+        255
+       ],
+       "toColor": [
+        184,
+        179,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        184,
+        252,
+        189,
+        255
+       ],
+       "toColor": [
+        184,
+        252,
+        189,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        179,
+        239,
+        252,
+        255
+       ],
+       "toColor": [
+        179,
+        239,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        182,
+        219,
+        255
+       ],
+       "toColor": [
+        252,
+        182,
+        219,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        251,
+        182,
+        255
+       ],
+       "toColor": [
+        252,
+        251,
+        182,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        204,
+        214,
+        252,
+        255
+       ],
+       "toColor": [
+        204,
+        214,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        212,
+        252,
+        221,
+        255
+       ],
+       "toColor": [
+        212,
+        252,
+        221,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        249,
+        182,
+        252,
+        255
+       ],
+       "toColor": [
+        249,
+        182,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        180,
+        179,
+        255
+       ],
+       "toColor": [
+        252,
+        180,
+        179,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        215,
+        252,
+        255
+       ],
+       "toColor": [
+        252,
+        215,
+        252,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        252,
+        251,
+        215,
+        255
+       ],
+       "toColor": [
+        252,
+        251,
+        215,
+        255
+       ]
+      },
+      {
+       "type": "algorithmic",
+       "algorithm": "esriCIELabAlgorithm",
+       "fromColor": [
+        219,
+        194,
+        252,
+        255
+       ],
+       "toColor": [
+        219,
+        194,
+        252,
+        255
+       ]
+      }
+     ]
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "fieldInfos": [
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "OBJECTID",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": false,
+      "label": "OBJECTID",
+      "visible": true
+     },
+     {
+      "fieldName": "ID",
+      "isEditable": true,
+      "label": "ID",
+      "visible": true
+     },
+     {
+      "fieldName": "NAME",
+      "isEditable": true,
+      "label": "NAME",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "AREA",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "AREA",
+      "visible": true
+     },
+     {
+      "fieldName": "RG_ABBREV",
+      "isEditable": true,
+      "label": "RG_ABBREV",
+      "visible": true
+     },
+     {
+      "fieldName": "RG_NAME",
+      "isEditable": true,
+      "label": "RG_NAME",
+      "visible": true
+     },
+     {
+      "fieldName": "S0101_C02_002E",
+      "isEditable": true,
+      "label": "S0101_C02_002E",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 0,
+       "useGrouping": "never"
+      },
+      "fieldName": "LILATracts_halfAnd10",
+      "format": {
+       "digitSeparator": false,
+       "places": 0
+      },
+      "isEditable": true,
+      "label": "Low Income & Low Access Census Tracts at 1/2 and 10 miles ",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "Shape__Length",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": false,
+      "label": "SHAPE__Length",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "minimumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "Shape__Area",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": false,
+      "label": "SHAPE__Area",
+      "visible": true
+     }
+    ]
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.NAME",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "OBJECTID",
+    "visible": true
+   },
+   {
+    "fieldName": "ID",
+    "isEditable": true,
+    "label": "ID",
+    "visible": true
+   },
+   {
+    "fieldName": "NAME",
+    "isEditable": true,
+    "label": "NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "AREA",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "AREA",
+    "visible": true
+   },
+   {
+    "fieldName": "RG_ABBREV",
+    "isEditable": true,
+    "label": "RG_ABBREV",
+    "visible": true
+   },
+   {
+    "fieldName": "RG_NAME",
+    "isEditable": true,
+    "label": "RG_NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "S0101_C02_002E",
+    "isEditable": true,
+    "label": "S0101_C02_002E",
+    "visible": true
+   },
+   {
+    "fieldName": "LILATracts_halfAnd10",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "Low Income & Low Access Census Tracts at 1/2 and 10 miles ",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Length",
+    "visible": true
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "SHAPE__Area",
+    "visible": true
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{expression/displayExp}"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ID",
+   "type": "esriFieldTypeString",
+   "alias": "ID",
+   "sqlType": "sqlTypeOther",
+   "length": 11,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 12,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AREA",
+   "type": "esriFieldTypeDouble",
+   "alias": "AREA",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "RG_ABBREV",
+   "type": "esriFieldTypeString",
+   "alias": "RG_ABBREV",
+   "sqlType": "sqlTypeOther",
+   "length": 2,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "RG_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "RG_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 20,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "S0101_C02_002E",
+   "type": "esriFieldTypeString",
+   "alias": "S0101_C02_002E",
+   "sqlType": "sqlTypeOther",
+   "length": 8000,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LILATracts_halfAnd10",
+   "type": "esriFieldTypeInteger",
+   "alias": "Low Income & Low Access Census Tracts at 1/2 and 10 miles ",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LILATracts",
+   "type": "esriFieldTypeString",
+   "alias": "Low Income and Low Access Census Tracts at 1/2 and 10 miles",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}

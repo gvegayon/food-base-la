@@ -1,0 +1,644 @@
+{
+ "title": "Restaurants 2026 (March)",
+ "group": [
+  "Retail Food Outlets",
+  "Restaurants"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/LACounty_Health_Restaurants_Mar2026_Geocoded/FeatureServer/10",
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "CIMSymbolReference",
+    "symbol": {
+     "type": "CIMPointSymbol",
+     "symbolLayers": [
+      {
+       "type": "CIMVectorMarker",
+       "enable": true,
+       "anchorPointUnits": "Relative",
+       "dominantSizeAxis3D": "Z",
+       "size": 4,
+       "billboardMode3D": "FaceNearPlane",
+       "frame": {
+        "xmin": -2,
+        "ymin": -2,
+        "xmax": 2,
+        "ymax": 2
+       },
+       "markerGraphics": [
+        {
+         "type": "CIMMarkerGraphic",
+         "geometry": {
+          "rings": [
+           [
+            [
+             0,
+             2
+            ],
+            [
+             0.35,
+             1.97
+            ],
+            [
+             0.68,
+             1.88
+            ],
+            [
+             1,
+             1.73
+            ],
+            [
+             1.29,
+             1.53
+            ],
+            [
+             1.53,
+             1.29
+            ],
+            [
+             1.73,
+             1
+            ],
+            [
+             1.88,
+             0.68
+            ],
+            [
+             1.97,
+             0.35
+            ],
+            [
+             2,
+             0
+            ],
+            [
+             1.97,
+             -0.35
+            ],
+            [
+             1.88,
+             -0.68
+            ],
+            [
+             1.73,
+             -1
+            ],
+            [
+             1.53,
+             -1.29
+            ],
+            [
+             1.29,
+             -1.53
+            ],
+            [
+             1,
+             -1.73
+            ],
+            [
+             0.68,
+             -1.88
+            ],
+            [
+             0.35,
+             -1.97
+            ],
+            [
+             0,
+             -2
+            ],
+            [
+             -0.35,
+             -1.97
+            ],
+            [
+             -0.68,
+             -1.88
+            ],
+            [
+             -1,
+             -1.73
+            ],
+            [
+             -1.29,
+             -1.53
+            ],
+            [
+             -1.53,
+             -1.29
+            ],
+            [
+             -1.73,
+             -1
+            ],
+            [
+             -1.88,
+             -0.68
+            ],
+            [
+             -1.97,
+             -0.35
+            ],
+            [
+             -2,
+             0
+            ],
+            [
+             -1.97,
+             0.35
+            ],
+            [
+             -1.88,
+             0.68
+            ],
+            [
+             -1.73,
+             1
+            ],
+            [
+             -1.53,
+             1.29
+            ],
+            [
+             -1.29,
+             1.53
+            ],
+            [
+             -1,
+             1.73
+            ],
+            [
+             -0.68,
+             1.88
+            ],
+            [
+             -0.35,
+             1.97
+            ],
+            [
+             0,
+             2
+            ]
+           ]
+          ]
+         },
+         "symbol": {
+          "type": "CIMPolygonSymbol",
+          "symbolLayers": [
+           {
+            "type": "CIMSolidStroke",
+            "enable": true,
+            "capStyle": "Round",
+            "joinStyle": "Round",
+            "lineStyle3D": "Strip",
+            "miterLimit": 10,
+            "width": 0.7,
+            "height3D": 1,
+            "anchor3D": "Center",
+            "color": [
+             0,
+             0,
+             0,
+             255
+            ]
+           },
+           {
+            "type": "CIMSolidFill",
+            "enable": true,
+            "color": [
+             166,
+             0,
+             0,
+             255
+            ]
+           }
+          ],
+          "angleAlignment": "Map"
+         }
+        }
+       ],
+       "scaleSymbolsProportionally": true,
+       "respectFrame": true
+      }
+     ],
+     "haloSize": 1,
+     "scaleX": 1,
+     "angleAlignment": "Display"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [
+     {
+      "fieldName": "FACILITY_NAME",
+      "isEditable": true,
+      "label": "FACILITY NAME",
+      "visible": true
+     },
+     {
+      "fieldName": "PE_DESCRIPTION",
+      "isEditable": true,
+      "label": "PE DESCRIPTION",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY_ADDRESS",
+      "isEditable": true,
+      "label": "FACILITY ADDRESS",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY_CITY",
+      "isEditable": true,
+      "label": "FACILITY CITY",
+      "visible": true
+     },
+     {
+      "fieldName": "FACILITY__STATE",
+      "isEditable": true,
+      "label": "FACILITY  STATE",
+      "visible": true
+     },
+     {
+      "fieldFormat": {
+       "type": "number",
+       "maximumFractionDigits": 6,
+       "useGrouping": "never"
+      },
+      "fieldName": "FACILITY_ZIP",
+      "format": {
+       "digitSeparator": false,
+       "places": 6
+      },
+      "isEditable": true,
+      "label": "FACILITY ZIP",
+      "visible": true
+     }
+    ],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [
+   {
+    "name": "displayExp",
+    "title": "Display Expression",
+    "expression": "$feature.FACILITY_NAME",
+    "returnType": "string"
+   }
+  ],
+  "fieldInfos": [
+   {
+    "fieldName": "ObjectID",
+    "isEditable": false,
+    "label": "ObjectID",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_ID",
+    "isEditable": true,
+    "label": "FACILITY ID",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_NAME",
+    "isEditable": true,
+    "label": "FACILITY NAME",
+    "visible": true
+   },
+   {
+    "fieldName": "RECORD_ID",
+    "isEditable": true,
+    "label": "RECORD ID",
+    "visible": false
+   },
+   {
+    "fieldName": "PROGRAM_NAME",
+    "isEditable": true,
+    "label": "PROGRAM NAME",
+    "visible": false
+   },
+   {
+    "fieldName": "PROGRAM_ELEMENT",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "PROGRAM ELEMENT",
+    "visible": false
+   },
+   {
+    "fieldName": "PE_DESCRIPTION",
+    "isEditable": true,
+    "label": "PE DESCRIPTION",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_ADDRESS",
+    "isEditable": true,
+    "label": "FACILITY ADDRESS",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_CITY",
+    "isEditable": true,
+    "label": "FACILITY CITY",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY__STATE",
+    "isEditable": true,
+    "label": "FACILITY  STATE",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_ZIP",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "FACILITY ZIP",
+    "visible": true
+   },
+   {
+    "fieldName": "FACILITY_LATITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "FACILITY LATITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "FACILITY_LONGITUDE",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "FACILITY LONGITUDE",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_ID",
+    "isEditable": true,
+    "label": "OWNER ID",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_NAME",
+    "isEditable": true,
+    "label": "OWNER NAME",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_ADDRESS",
+    "isEditable": true,
+    "label": "OWNER ADDRESS",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_CITY",
+    "isEditable": true,
+    "label": "OWNER CITY",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_STATE",
+    "isEditable": true,
+    "label": "OWNER STATE",
+    "visible": false
+   },
+   {
+    "fieldName": "OWNER_ZIP",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "OWNER ZIP",
+    "visible": false
+   },
+   {
+    "fieldName": "expression/displayExp",
+    "isEditable": true,
+    "visible": false
+   }
+  ],
+  "showLastEditInfo": false,
+  "title": "{FACILITY_NAME}"
+ },
+ "fields": [
+  {
+   "name": "ObjectID",
+   "type": "esriFieldTypeOID",
+   "alias": "ObjectID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "FACILITY_ID",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "RECORD_ID",
+   "type": "esriFieldTypeString",
+   "alias": "RECORD ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "PROGRAM_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "PROGRAM NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "PROGRAM_ELEMENT",
+   "type": "esriFieldTypeDouble",
+   "alias": "PROGRAM ELEMENT",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "PE_DESCRIPTION",
+   "type": "esriFieldTypeString",
+   "alias": "PE DESCRIPTION",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY_ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY_CITY",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY__STATE",
+   "type": "esriFieldTypeString",
+   "alias": "FACILITY  STATE",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "FACILITY_ZIP",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "FACILITY_LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY LATITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "FACILITY_LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "FACILITY LONGITUDE",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  },
+  {
+   "name": "OWNER_ID",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER ID",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_ADDRESS",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER ADDRESS",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_CITY",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER CITY",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_STATE",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER STATE",
+   "sqlType": "sqlTypeOther",
+   "length": 255,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": ""
+  },
+  {
+   "name": "OWNER_ZIP",
+   "type": "esriFieldTypeDouble",
+   "alias": "OWNER ZIP",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": 0
+  }
+ ]
+}

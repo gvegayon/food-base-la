@@ -1,0 +1,299 @@
+{
+ "title": "Service Planning Areas (SPAs)",
+ "group": [
+  "Spatial Boundaries"
+ ],
+ "url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/L_A__County_Food_Data_WFL1/FeatureServer/3",
+ "drawingInfo": {
+  "labelingInfo": [
+   {
+    "name": "Class 1",
+    "allowOverrun": true,
+    "labelExpression": "[SPA_NAME]",
+    "labelExpressionInfo": {
+     "expression": "$feature.SPA_NAME",
+     "title": "Custom"
+    },
+    "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+    "repeatLabel": false,
+    "symbol": {
+     "type": "esriTS",
+     "color": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "font": {
+      "family": "Tahoma",
+      "size": 10
+     },
+     "horizontalAlignment": "left",
+     "kerning": true,
+     "rightToLeft": false,
+     "rotated": false,
+     "text": "",
+     "verticalAlignment": "bottom",
+     "xoffset": 0,
+     "yoffset": 0,
+     "angle": 0
+    },
+    "useCodedValues": true
+   }
+  ],
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "CIMSymbolReference",
+    "symbol": {
+     "type": "CIMPolygonSymbol",
+     "symbolLayers": [
+      {
+       "type": "CIMSolidStroke",
+       "enable": true,
+       "colorLocked": true,
+       "capStyle": "Butt",
+       "joinStyle": "Round",
+       "lineStyle3D": "Strip",
+       "miterLimit": 10,
+       "width": 2,
+       "height3D": 1,
+       "anchor3D": "Center",
+       "color": [
+        255,
+        0,
+        0,
+        255
+       ]
+      },
+      {
+       "type": "CIMSolidFill",
+       "enable": true,
+       "color": [
+        130,
+        130,
+        130,
+        0
+       ]
+      }
+     ],
+     "angleAlignment": "Map"
+    }
+   }
+  }
+ },
+ "popupInfo": {
+  "popupElements": [
+   {
+    "type": "fields",
+    "description": "",
+    "fieldInfos": [],
+    "title": ""
+   }
+  ],
+  "expressionInfos": [],
+  "fieldInfos": [
+   {
+    "fieldName": "FID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": false,
+    "label": "FID",
+    "visible": false
+   },
+   {
+    "fieldName": "OBJECTID",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "OBJECTID",
+    "visible": false
+   },
+   {
+    "fieldName": "SPA",
+    "isEditable": true,
+    "label": "SPA",
+    "visible": false
+   },
+   {
+    "fieldName": "SPA_NAME",
+    "isEditable": true,
+    "label": "SPA_NAME",
+    "visible": false
+   },
+   {
+    "fieldName": "ABBV",
+    "isEditable": true,
+    "label": "ABBV",
+    "visible": false
+   },
+   {
+    "fieldName": "LABEL",
+    "isEditable": true,
+    "label": "LABEL",
+    "visible": false
+   },
+   {
+    "fieldName": "SPA_NUM",
+    "format": {
+     "digitSeparator": false,
+     "places": 0
+    },
+    "isEditable": true,
+    "label": "SPA_NUM",
+    "visible": false
+   },
+   {
+    "fieldName": "SHAPE_Leng",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": true,
+    "label": "SHAPE_Leng",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Area",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Area",
+    "visible": false
+   },
+   {
+    "fieldName": "Shape__Length",
+    "format": {
+     "digitSeparator": false,
+     "places": 6
+    },
+    "isEditable": false,
+    "label": "Shape__Length",
+    "visible": false
+   }
+  ],
+  "title": "SPA {SPA_NUM} - {SPA_NAME}"
+ },
+ "fields": [
+  {
+   "name": "FID",
+   "type": "esriFieldTypeOID",
+   "alias": "FID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SPA",
+   "type": "esriFieldTypeString",
+   "alias": "SPA",
+   "sqlType": "sqlTypeOther",
+   "length": 1,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SPA_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "SPA_NAME",
+   "sqlType": "sqlTypeOther",
+   "length": 15,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "ABBV",
+   "type": "esriFieldTypeString",
+   "alias": "ABBV",
+   "sqlType": "sqlTypeOther",
+   "length": 3,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "LABEL",
+   "type": "esriFieldTypeString",
+   "alias": "LABEL",
+   "sqlType": "sqlTypeOther",
+   "length": 5,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SPA_NUM",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "SPA_NUM",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SHAPE_Leng",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE_Leng",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Area",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Shape__Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape__Length",
+   "sqlType": "sqlTypeDouble",
+   "nullable": true,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SQMI",
+   "type": "esriFieldTypeDouble",
+   "alias": "SQMI",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ]
+}
